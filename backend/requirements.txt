@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pymongo
+python-dotenv
+bcrypt
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+pydantic[email]
+google-genai
+pypdf
+tavily-python
+requests
+python-pptx
+elevenlabs
