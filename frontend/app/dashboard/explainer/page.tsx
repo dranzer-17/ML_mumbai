@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { getApiUrl } from "@/lib/api";
 import ReactFlow, {
   Node,
   Edge,
@@ -388,7 +389,7 @@ export default function ExplainerPage() {
       formData.append("complexity", complexity);
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/explainer/generate",
+        getApiUrl("api/explainer/generate"),
         formData,
         {
           headers: {
@@ -425,7 +426,7 @@ export default function ExplainerPage() {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/explainer/chat",
+        getApiUrl("api/explainer/chat"),
         {
           explainer_content: JSON.stringify(explanation),
           chat_history: chatMessages,

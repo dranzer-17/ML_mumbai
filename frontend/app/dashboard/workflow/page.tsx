@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { getApiUrl } from "@/lib/api";
 import ReactFlow, {
   Node,
   Edge,
@@ -441,7 +442,7 @@ export default function WorkflowPage() {
       }
 
       const res = await axios.post(
-        "http://127.0.0.1:8000/api/workflow/generate",
+        getApiUrl("api/workflow/generate"),
         formData,
         {
           headers: {
@@ -497,7 +498,7 @@ export default function WorkflowPage() {
       };
 
       await axios.post(
-        "http://127.0.0.1:8000/api/workflow/save",
+        getApiUrl("api/workflow/save"),
         saveRequest,
         {
           headers: {
@@ -540,7 +541,7 @@ export default function WorkflowPage() {
       }
 
       const res = await axios.get(
-        "http://127.0.0.1:8000/api/workflow/history",
+        getApiUrl("api/workflow/history"),
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -563,7 +564,7 @@ export default function WorkflowPage() {
     try {
       const token = localStorage.getItem("token");
       const res = await axios.get(
-        `http://127.0.0.1:8000/api/workflow/history/${workflow_id}`,
+        getApiUrl(`api/workflow/history/${workflow_id}`),
         {
           headers: {
             Authorization: `Bearer ${token}`,

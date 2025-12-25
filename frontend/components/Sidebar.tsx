@@ -15,7 +15,8 @@ import {
   ChevronRight,
   GitBranch,
   Presentation,
-  Lightbulb
+  Lightbulb,
+  User
 } from "lucide-react";
 
 export default function Sidebar() {
@@ -119,6 +120,14 @@ export default function Sidebar() {
               </div>
             </button>
           )}
+          <Link href="/dashboard/profile">
+            <button 
+              className={`w-full flex items-center justify-center gap-2 font-bold bg-white border-[3px] border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:bg-blue-50 hover:text-blue-600 mb-2 p-2 transition-all active:shadow-none active:translate-x-[2px] active:translate-y-[2px] ${isCollapsed ? 'px-3' : ''}`}
+              title={isCollapsed ? "Profile" : undefined}
+            >
+              <User size={20} /> {!isCollapsed && "Profile"}
+            </button>
+          </Link>
           <button 
             onClick={handleLogout}
             className={`w-full flex items-center justify-center gap-2 font-bold bg-white border-[3px] border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:bg-red-50 hover:text-red-600 p-2 transition-all active:shadow-none active:translate-x-[2px] active:translate-y-[2px] ${isCollapsed ? 'px-3' : ''}`}

@@ -1,125 +1,29 @@
-2025-12-25 12:25:43,135 - Main - INFO - 🚀 Saarthi Backend Server Started
-2025-12-25 12:28:26,802 - auth.routes - INFO - ================================================================================
-2025-12-25 12:28:26,802 - auth.routes - INFO - [CLERK_CALLBACK START] Email: sendittokavishshah@gmail.com
-2025-12-25 12:28:26,802 - auth.routes - INFO - [CLERK_CALLBACK] Full name: Kavish Shah
-2025-12-25 12:28:26,802 - auth.routes - INFO - [CLERK_CALLBACK] Checking if email already exists: sendittokavishshah@gmail.com
-2025-12-25 12:28:26,906 - auth.routes - INFO - [CLERK_CALLBACK] Creating new user for: sendittokavishshah@gmail.com
-2025-12-25 12:28:27,011 - auth.routes - INFO - [CLERK_CALLBACK] Generated user_id: 5
-2025-12-25 12:28:27,011 - auth.routes - INFO - [CLERK_CALLBACK] Inserting user into MongoDB
-2025-12-25 12:28:27,122 - auth.routes - INFO - [CLERK_CALLBACK] User inserted successfully with _id: 694ce093ddab80da3cbe05be
-2025-12-25 12:28:27,122 - auth.routes - INFO - [CLERK_CALLBACK] Generating JWT access token for: sendittokavishshah@gmail.com
-2025-12-25 12:28:27,123 - auth.routes - INFO - [CLERK_CALLBACK] Access token generated (length: 155)
-2025-12-25 12:28:27,123 - auth.routes - INFO - [CLERK_CALLBACK SUCCESS] User sendittokavishshah@gmail.com registered and logged in via Google (user_id: 5)
-2025-12-25 12:28:27,123 - auth.routes - INFO - ================================================================================
-2025-12-25 12:30:28,292 - auth.routes - INFO - ================================================================================
-2025-12-25 12:30:28,292 - auth.routes - INFO - [CLERK_CALLBACK START] Email: socialkavish@gmail.com
-2025-12-25 12:30:28,292 - auth.routes - INFO - [CLERK_CALLBACK] Full name: Kavish Shah
-2025-12-25 12:30:28,292 - auth.routes - INFO - [CLERK_CALLBACK] Checking if email already exists: socialkavish@gmail.com
-2025-12-25 12:30:28,323 - auth.routes - INFO - [CLERK_CALLBACK] Creating new user for: socialkavish@gmail.com
-2025-12-25 12:30:28,343 - auth.routes - INFO - [CLERK_CALLBACK] Generated user_id: 6
-2025-12-25 12:30:28,343 - auth.routes - INFO - [CLERK_CALLBACK] Inserting user into MongoDB
-2025-12-25 12:30:28,352 - auth.routes - INFO - [CLERK_CALLBACK] User inserted successfully with _id: 694ce10cddab80da3cbe05bf
-2025-12-25 12:30:28,352 - auth.routes - INFO - [CLERK_CALLBACK] Generating JWT access token for: socialkavish@gmail.com
-2025-12-25 12:30:28,352 - auth.routes - INFO - [CLERK_CALLBACK] Access token generated (length: 147)
-2025-12-25 12:30:28,352 - auth.routes - INFO - [CLERK_CALLBACK SUCCESS] User socialkavish@gmail.com registered and logged in via Google (user_id: 6)
-2025-12-25 12:30:28,353 - auth.routes - INFO - ================================================================================
-2025-12-25 12:30:28,960 - auth.routes - INFO - ================================================================================
-2025-12-25 12:30:28,960 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
-2025-12-25 12:30:28,960 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
-2025-12-25 12:30:28,960 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
-2025-12-25 12:30:28,960 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
-2025-12-25 12:30:28,961 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
-2025-12-25 12:30:28,961 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
-2025-12-25 12:30:28,961 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
-2025-12-25 12:30:28,961 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798182028
-2025-12-25 12:30:28,961 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
-2025-12-25 12:30:28,967 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 6
-2025-12-25 12:30:28,967 - auth.routes - INFO - ================================================================================
-2025-12-25 12:30:28,969 - auth.routes - INFO - ================================================================================
-2025-12-25 12:30:28,969 - auth.routes - INFO - [GET /me] Request received for user: socialkavish@gmail.com
-2025-12-25 12:30:28,969 - auth.routes - INFO - [GET /me] Returning user data: user_id=6, full_name=Kavish Shah
-2025-12-25 12:30:28,969 - auth.routes - INFO - ================================================================================
-2025-12-25 12:32:34,104 - auth.routes - INFO - ================================================================================
-2025-12-25 12:32:34,104 - auth.routes - INFO - [CLERK_CALLBACK START] Email: socialkavish@gmail.com
-2025-12-25 12:32:34,104 - auth.routes - INFO - [CLERK_CALLBACK] Full name: Kavish Shah
-2025-12-25 12:32:34,104 - auth.routes - INFO - [CLERK_CALLBACK] Checking if email already exists: socialkavish@gmail.com
-2025-12-25 12:32:34,144 - auth.routes - INFO - [CLERK_CALLBACK] User exists (OAuth user), generating token: socialkavish@gmail.com
-2025-12-25 12:32:34,145 - auth.routes - INFO - [CLERK_CALLBACK SUCCESS] User socialkavish@gmail.com logged in via Google
-2025-12-25 12:32:34,145 - auth.routes - INFO - ================================================================================
-2025-12-25 12:32:34,463 - auth.routes - INFO - ================================================================================
-2025-12-25 12:32:34,463 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
-2025-12-25 12:32:34,463 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
-2025-12-25 12:32:34,463 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
-2025-12-25 12:32:34,463 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
-2025-12-25 12:32:34,464 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
-2025-12-25 12:32:34,464 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
-2025-12-25 12:32:34,464 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
-2025-12-25 12:32:34,464 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798182154
-2025-12-25 12:32:34,464 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
-2025-12-25 12:32:34,491 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 6
-2025-12-25 12:32:34,492 - auth.routes - INFO - ================================================================================
-2025-12-25 12:32:34,492 - auth.routes - INFO - ================================================================================
-2025-12-25 12:32:34,493 - auth.routes - INFO - [GET /me] Request received for user: socialkavish@gmail.com
-2025-12-25 12:32:34,493 - auth.routes - INFO - [GET /me] Returning user data: user_id=6, full_name=Kavish Shah
-2025-12-25 12:32:34,493 - auth.routes - INFO - ================================================================================
-2025-12-25 12:40:26,904 - auth.routes - INFO - ================================================================================
-2025-12-25 12:40:26,904 - auth.routes - INFO - [CLERK_CALLBACK START] Email: kavish17shah@gmail.com
-2025-12-25 12:40:26,904 - auth.routes - INFO - [CLERK_CALLBACK] Full name: Kavish Shah
-2025-12-25 12:40:26,904 - auth.routes - INFO - [CLERK_CALLBACK] Checking if email already exists: kavish17shah@gmail.com
-2025-12-25 12:40:26,919 - auth.routes - WARNING - [CLERK_CALLBACK FAILED] Email already registered with password: kavish17shah@gmail.com
-2025-12-25 12:40:26,919 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:23,926 - Main - INFO - 🚀 Saarthi Backend Server Started
-2025-12-25 13:10:34,300 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:34,301 - auth.routes - INFO - [CLERK_CALLBACK START] Email: sendittokavishshah@gmail.com
-2025-12-25 13:10:34,301 - auth.routes - INFO - [CLERK_CALLBACK] Full name: Kavish Shah
-2025-12-25 13:10:34,301 - auth.routes - INFO - [CLERK_CALLBACK] Checking if email already exists: sendittokavishshah@gmail.com
-2025-12-25 13:10:34,313 - auth.routes - INFO - [CLERK_CALLBACK] User exists (OAuth user), generating token: sendittokavishshah@gmail.com
-2025-12-25 13:10:34,318 - auth.routes - INFO - [CLERK_CALLBACK SUCCESS] User sendittokavishshah@gmail.com logged in via Google
-2025-12-25 13:10:34,318 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:34,846 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:34,846 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
-2025-12-25 13:10:34,846 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 155
-2025-12-25 13:10:34,846 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
-2025-12-25 13:10:34,846 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
-2025-12-25 13:10:34,848 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
-2025-12-25 13:10:34,848 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
-2025-12-25 13:10:34,848 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: sendittokavishshah@gmail.com
-2025-12-25 13:10:34,848 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798184434
-2025-12-25 13:10:34,848 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: sendittokavishshah@gmail.com
-2025-12-25 13:10:34,871 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: sendittokavishshah@gmail.com, user_id: 5
-2025-12-25 13:10:34,871 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:34,872 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:34,872 - auth.routes - INFO - [GET /me] Request received for user: sendittokavishshah@gmail.com
-2025-12-25 13:10:34,872 - auth.routes - INFO - [GET /me] Returning user data: user_id=5, full_name=Kavish Shah
-2025-12-25 13:10:34,872 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:53,367 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:53,367 - auth.routes - INFO - [LOGIN START] Username (email): kavish17shah2509@gmail.com
-2025-12-25 13:10:53,367 - auth.routes - INFO - [LOGIN] Password length: 6 chars
-2025-12-25 13:10:53,367 - auth.routes - INFO - [LOGIN] OAuth2 scopes requested: []
-2025-12-25 13:10:53,367 - auth.routes - INFO - [LOGIN] Querying MongoDB for user with email: kavish17shah2509@gmail.com
-2025-12-25 13:10:53,381 - auth.routes - INFO - [LOGIN] User found in database: kavish17shah2509@gmail.com
-2025-12-25 13:10:53,381 - auth.routes - INFO - [LOGIN] User _id: 6947aa857697d86e63ed3c59, user_id: 2
-2025-12-25 13:10:53,382 - auth.routes - INFO - [LOGIN] User has hashed_password: Yes
-2025-12-25 13:10:53,382 - auth.routes - INFO - [LOGIN] Verifying password with bcrypt
-2025-12-25 13:10:53,750 - auth.routes - INFO - [LOGIN] Password verification result: VALID
-2025-12-25 13:10:53,750 - auth.routes - INFO - [LOGIN] Password verified successfully
-2025-12-25 13:10:53,750 - auth.routes - INFO - [LOGIN] Generating JWT access token for: kavish17shah2509@gmail.com
-2025-12-25 13:10:53,750 - auth.routes - INFO - [LOGIN] Access token generated (length: 152)
-2025-12-25 13:10:53,750 - auth.routes - INFO - [LOGIN SUCCESS] User kavish17shah2509@gmail.com logged in successfully
-2025-12-25 13:10:53,750 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:55,001 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:55,001 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
-2025-12-25 13:10:55,001 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 152
-2025-12-25 13:10:55,001 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
-2025-12-25 13:10:55,001 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
-2025-12-25 13:10:55,002 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
-2025-12-25 13:10:55,002 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
-2025-12-25 13:10:55,002 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah2509@gmail.com
-2025-12-25 13:10:55,002 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798184453
-2025-12-25 13:10:55,002 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah2509@gmail.com
-2025-12-25 13:10:55,015 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah2509@gmail.com, user_id: 2
-2025-12-25 13:10:55,015 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:55,016 - auth.routes - INFO - ================================================================================
-2025-12-25 13:10:55,016 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah2509@gmail.com
-2025-12-25 13:10:55,016 - auth.routes - INFO - [GET /me] Returning user data: user_id=2, full_name=Kavish Shah
-2025-12-25 13:10:55,016 - auth.routes - INFO - ================================================================================
+2025-12-25 16:08:10,516 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:08:46,751 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:09:05,044 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:09:29,265 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:11:05,399 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:16:49,164 - auth.routes - INFO - ================================================================================
+2025-12-25 16:16:49,165 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:16:49,165 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 152
+2025-12-25 16:16:49,165 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:16:49,165 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:16:49,166 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:16:49,166 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:16:49,166 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah2509@gmail.com
+2025-12-25 16:16:49,166 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798184453
+2025-12-25 16:16:49,167 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah2509@gmail.com
+2025-12-25 16:16:49,201 - auth.routes - WARNING - [GET_CURRENT_USER FAILED] User not found in database: kavish17shah2509@gmail.com
+2025-12-25 16:16:49,202 - auth.routes - INFO - ================================================================================
+2025-12-25 16:16:49,205 - auth.routes - INFO - ================================================================================
+2025-12-25 16:16:49,205 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:16:49,205 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 152
+2025-12-25 16:16:49,205 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:16:49,205 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:16:49,205 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:16:49,206 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:16:49,206 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah2509@gmail.com
+2025-12-25 16:16:49,206 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798184453
+2025-12-25 16:16:49,206 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah2509@gmail.com
+2025-12-25 16:16:49,234 - auth.routes - WARNING - [GET_CURRENT_USER FAILED] User not found in database: kavish17shah2509@gmail.com
+2025-12-25 16:16:49,234 - auth.routes - INFO - ================================================================================

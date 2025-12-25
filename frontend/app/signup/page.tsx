@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ArrowLeft, UserPlus, Eye, EyeOff, Mail, Lock, User } from "lucide-react";
 import toast from "react-hot-toast";
 import { supabase } from "@/lib/supabase";
+import { getApiUrl } from "@/lib/api";
+import { checkProfileComplete } from "@/lib/profile";
 
 export default function SignupPage() {
   const [formData, setFormData] = useState({
@@ -41,7 +43,7 @@ export default function SignupPage() {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://127.0.0.1:8000/api/auth/signup", formData, {
+      const res = await axios.post(getApiUrl("api/auth/signup"), formData, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -50,8 +52,9 @@ export default function SignupPage() {
       localStorage.setItem("token", res.data.access_token);
       toast.success("Account created successfully!");
       
+      // New users should complete profile
       setTimeout(() => {
-        window.location.href = "/dashboard";
+        window.location.href = "/dashboard/profile";
       }, 1000);
       
     } catch (err: unknown) {

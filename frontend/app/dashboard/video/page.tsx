@@ -5,6 +5,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import SignLanguageAvatar from "@/components/SignLanguageAvatar";
 import { useRouter } from "next/navigation";
+import { getApiUrl } from "@/lib/api";
 
 type InputMode = "youtube" | "upload";
 
@@ -36,7 +37,7 @@ export default function VideoPage() {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/video-transcript/youtube",
+        getApiUrl("api/video-transcript/youtube"),
         { video_url: youtubeUrl },
         {
           headers: {
@@ -75,7 +76,7 @@ export default function VideoPage() {
       formData.append("file", selectedFile);
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/video-transcript/upload",
+        getApiUrl("api/video-transcript/upload"),
         formData,
         {
           headers: {

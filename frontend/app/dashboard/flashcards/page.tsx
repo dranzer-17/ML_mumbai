@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { getApiUrl } from "@/lib/api";
 import { 
   Layers,
   CheckCircle, 
@@ -146,7 +147,7 @@ export default function FlashcardsPage() {
       formData.append("words_per_card", wordsPerCard.toString());
 
       const res = await axios.post(
-        "http://127.0.0.1:8000/api/flashcards/generate",
+        getApiUrl("api/flashcards/generate"),
         formData,
         {
           headers: {
@@ -203,7 +204,7 @@ export default function FlashcardsPage() {
       };
 
       await axios.post(
-        "http://127.0.0.1:8000/api/flashcards/save",
+        getApiUrl("api/flashcards/save"),
         saveRequest,
         {
           headers: {
@@ -268,7 +269,7 @@ export default function FlashcardsPage() {
       }
 
       const res = await axios.get(
-        "http://127.0.0.1:8000/api/flashcards/history",
+        getApiUrl("api/flashcards/history"),
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -291,7 +292,7 @@ export default function FlashcardsPage() {
     try {
       const token = localStorage.getItem("token");
       const res = await axios.get(
-        `http://127.0.0.1:8000/api/flashcards/history/${flashcard_id}`,
+        getApiUrl(`api/flashcards/history/${flashcard_id}`),
         {
           headers: {
             Authorization: `Bearer ${token}`,

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import axios from "axios";
+import { getApiUrl } from "@/lib/api";
 import { 
   Video, 
   Loader2, 
@@ -49,7 +50,7 @@ export default function VideoTranscriptionPage() {
       }
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/transcription/transcribe",
+        getApiUrl("api/transcription/transcribe"),
         formData,
         {
           headers: {

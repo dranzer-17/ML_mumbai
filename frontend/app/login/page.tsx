@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ArrowLeft, LogIn, Eye, EyeOff, Mail, Lock } from "lucide-react";
 import toast from "react-hot-toast";
 import { supabase } from "@/lib/supabase";
+import { getApiUrl } from "@/lib/api";
+import { checkProfileComplete } from "@/lib/profile";
 
 export default function LoginPage() {
   const [formData, setFormData] = useState({
@@ -46,7 +48,7 @@ export default function LoginPage() {
       formDataToSend.append("password", formData.password);
       
       // Post to Backend with form data
-      const res = await axios.post("http://127.0.0.1:8000/api/auth/login", formDataToSend, {
+      const res = await axios.post(getApiUrl("api/auth/login"), formDataToSend, {
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
@@ -58,10 +60,22 @@ export default function LoginPage() {
       // Show success toast
       toast.success("Logged in successfully!");
       
-      // Redirect to Dashboard after a short delay
-      setTimeout(() => {
-        window.location.href = "/dashboard";
-      }, 1000);
+      // Check if profile is complete and redirect
+      try {
+        const profileComplete = await checkProfileComplete();
+        setTimeout(() => {
+          if (!profileComplete) {
+            window.location.href = "/dashboard/profile";
+          } else {
+            window.location.href = "/dashboard";
+          }
+        }, 1000);
+      } catch {
+        // If profile check fails, just go to dashboard
+        setTimeout(() => {
+          window.location.href = "/dashboard";
+        }, 1000);
+      }
       
     } catch (err) {
         // Handle axios errors

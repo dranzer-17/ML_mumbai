@@ -3,6 +3,7 @@ import Link from "next/link";
 import { MessageSquare, Video, FileText, ArrowUpRight } from "lucide-react";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { getApiUrl } from "@/lib/api";
 
 export default function DashboardHome() {
   const [userName, setUserName] = useState<string>("");
@@ -17,7 +18,7 @@ export default function DashboardHome() {
           return;
         }
 
-        const response = await axios.get("http://127.0.0.1:8000/api/auth/me", {
+        const response = await axios.get(getApiUrl("api/auth/me"), {
           headers: {
             Authorization: `Bearer ${token}`
           }

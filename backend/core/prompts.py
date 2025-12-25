@@ -1,6 +1,7 @@
 """
 AI prompt templates for different features
 """
+from typing import Optional
 
 def get_quiz_prompt(content: str, num_questions: int, difficulty: str) -> str:
     """
@@ -70,20 +71,53 @@ Return ONLY valid JSON, no markdown.
 """
 
 
-def get_explainer_prompt(content: str, complexity: str = "medium") -> str:
+def get_explainer_prompt(content: str, complexity: str = "medium", user_profile: Optional[dict] = None) -> str:
     """
     Generate explanation prompt for content with rich structured output
     
     Args:
         content: Content to explain
         complexity: Explanation complexity level
+        user_profile: User profile data for personalized explanation
         
     Returns:
         Formatted prompt string
     """
+    # Build personalized context from user profile
+    profile_context = ""
+    if user_profile:
+        profile_parts = []
+        if user_profile.get("learner_type"):
+            profile_parts.append(f"Learner Type: {user_profile['learner_type']}")
+        if user_profile.get("age_group"):
+            profile_parts.append(f"Age Group: {user_profile['age_group']}")
+        if user_profile.get("preferred_learning_style"):
+            profile_parts.append(f"Preferred Learning Style: {user_profile['preferred_learning_style']}")
+        if user_profile.get("education_level"):
+            profile_parts.append(f"Education Level: {user_profile['education_level']}")
+        if user_profile.get("learning_goals"):
+            profile_parts.append(f"Learning Goals: {', '.join(user_profile['learning_goals'])}")
+        if user_profile.get("interests"):
+            profile_parts.append(f"Interests: {', '.join(user_profile['interests'])}")
+        
+        if profile_parts:
+            profile_context = f"""
+
+STUDENT PROFILE:
+{chr(10).join(profile_parts)}
+
+IMPORTANT: Adapt your explanation to this student's profile:
+- Use language and examples appropriate for their age group ({user_profile.get('age_group', 'general')})
+- Match their learning style ({user_profile.get('preferred_learning_style', 'general')})
+- Connect concepts to their interests ({', '.join(user_profile.get('interests', [])) if user_profile.get('interests') else 'general'})
+- Align with their learning goals ({', '.join(user_profile.get('learning_goals', [])) if user_profile.get('learning_goals') else 'general understanding'})
+- Adjust complexity based on their education level ({user_profile.get('education_level', 'general')})
+- Use analogies and examples relevant to a {user_profile.get('learner_type', 'learner')}"""
+    
     return f"""
 You are an expert educator creating a comprehensive, engaging explanation similar to NotebookLM.
 Complexity level: {complexity}
+{profile_context}
 
 Content to Explain:
 {content}

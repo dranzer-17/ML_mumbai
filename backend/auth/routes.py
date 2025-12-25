@@ -3,7 +3,7 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import JWTError, jwt
 
 from database import db, get_next_sequence
-from auth.schemas import UserCreate, Token, UserResponse, ClerkCallback
+from auth.schemas import UserCreate, Token, UserResponse, ClerkCallback, UserProfileUpdate, UserProfileResponse
 from auth.security import get_password_hash, verify_password, create_access_token
 from config import SECRET_KEY, ALGORITHM
 from logger import get_logger
@@ -247,10 +247,69 @@ def clerk_callback(callback_data: ClerkCallback):
         logger.info("=" * 80)
         raise HTTPException(status_code=500, detail="Internal server error during Clerk callback")
 
-@router.get("/me", response_model=UserResponse)
+@router.get("/me", response_model=UserProfileResponse)
 def read_users_me(current_user: dict = Depends(get_current_user)):
     logger.info("=" * 80)
     logger.info(f"[GET /me] Request received for user: {current_user.get('email')}")
-    logger.info(f"[GET /me] Returning user data: user_id={current_user.get('user_id')}, full_name={current_user.get('full_name')}")
+    
+    # Check if profile is complete
+    profile_complete = bool(
+        current_user.get('learner_type') and
+        current_user.get('age_group')
+    )
+    current_user['profile_complete'] = profile_complete
+    
+    logger.info(f"[GET /me] Returning user data: user_id={current_user.get('user_id')}, full_name={current_user.get('full_name')}, profile_complete={profile_complete}")
     logger.info("=" * 80)
     return current_user
+
+@router.put("/profile", response_model=UserProfileResponse)
+def update_profile(
+    profile_data: UserProfileUpdate,
+    current_user: dict = Depends(get_current_user)
+):
+    logger.info("=" * 80)
+    logger.info(f"[UPDATE_PROFILE START] User: {current_user.get('email')}")
+    logger.info(f"[UPDATE_PROFILE] Profile data: {profile_data.model_dump(exclude_none=True)}")
+    
+    try:
+        # Prepare update data (only include non-None values)
+        update_data = profile_data.model_dump(exclude_none=True)
+        
+        if not update_data:
+            logger.warning("[UPDATE_PROFILE] No data to update")
+            logger.info("=" * 80)
+            raise HTTPException(status_code=400, detail="No profile data provided")
+        
+        # Update user in database
+        result = db["users"].update_one(
+            {"email": current_user.get("email")},
+            {"$set": update_data}
+        )
+        
+        if result.matched_count == 0:
+            logger.error(f"[UPDATE_PROFILE ERROR] User not found: {current_user.get('email')}")
+            logger.info("=" * 80)
+            raise HTTPException(status_code=404, detail="User not found")
+        
+        # Fetch updated user
+        updated_user = db["users"].find_one({"email": current_user.get("email")})
+        
+        # Check if profile is complete
+        profile_complete = bool(
+            updated_user.get('learner_type') and
+            updated_user.get('age_group')
+        )
+        updated_user['profile_complete'] = profile_complete
+        
+        logger.info(f"[UPDATE_PROFILE SUCCESS] Profile updated for {current_user.get('email')}")
+        logger.info(f"[UPDATE_PROFILE] Profile complete: {profile_complete}")
+        logger.info("=" * 80)
+        
+        return updated_user
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"[UPDATE_PROFILE ERROR] Unexpected error: {type(e).__name__} - {e}")
+        logger.info("=" * 80)
+        raise HTTPException(status_code=500, detail="Internal server error during profile update")

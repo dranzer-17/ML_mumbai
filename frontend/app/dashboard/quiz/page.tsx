@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
+import { getApiUrl } from "@/lib/api";
 import { 
   ClipboardList, 
   CheckCircle, 
@@ -156,7 +157,7 @@ export default function QuizPage() {
         setContentSource("pdf");
       }
 
-      const res = await axios.post("http://127.0.0.1:8000/api/quiz/generate", formData, {
+      const res = await axios.post(getApiUrl("api/quiz/generate"), formData, {
         headers: { 
           Authorization: `Bearer ${token}`
         }
@@ -276,7 +277,7 @@ export default function QuizPage() {
       };
 
       await axios.post(
-        "http://127.0.0.1:8000/api/quiz/save",
+        getApiUrl("api/quiz/save"),
         saveRequest,
         {
           headers: {
@@ -330,7 +331,7 @@ export default function QuizPage() {
       };
       
       const res = await axios.post(
-        "http://127.0.0.1:8000/api/quiz/analyze",
+        getApiUrl("api/quiz/analyze"),
         analysisRequest,
         {
           headers: {
@@ -409,7 +410,7 @@ export default function QuizPage() {
       }
 
       const res = await axios.get(
-        "http://127.0.0.1:8000/api/quiz/history",
+        getApiUrl("api/quiz/history"),
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -453,7 +454,7 @@ export default function QuizPage() {
       }
 
       const res = await axios.get(
-        `http://127.0.0.1:8000/api/quiz/history/${quizId}`,
+        getApiUrl(`api/quiz/history/${quizId}`),
         {
           headers: {
             Authorization: `Bearer ${token}`,

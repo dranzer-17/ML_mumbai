@@ -4,6 +4,8 @@ import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { getApiUrl } from "@/lib/api";
+import { checkProfileComplete } from "@/lib/profile";
 
 export default function AuthCallback() {
   const router = useRouter();
@@ -59,7 +61,7 @@ export default function AuthCallback() {
             // Call backend
             try {
               const res = await axios.post(
-                "http://127.0.0.1:8000/api/auth/clerk-callback",
+                getApiUrl("api/auth/clerk-callback"),
                 { email, full_name: fullName },
                 {
                   headers: { "Content-Type": "application/json" },
@@ -70,7 +72,10 @@ export default function AuthCallback() {
               localStorage.setItem("token", res.data.access_token);
               await supabase.auth.signOut();
               toast.success("Signed in with Google successfully!");
-              window.location.href = "/dashboard";
+              
+              // Check if profile is complete
+              const profileComplete = await checkProfileComplete();
+              window.location.href = profileComplete ? "/dashboard" : "/dashboard/profile";
             } catch (backendError) {
               console.error("Backend error:", backendError);
               if (axios.isAxiosError(backendError)) {
@@ -119,7 +124,7 @@ export default function AuthCallback() {
         // Call backend to create/update user and get JWT
         try {
           const res = await axios.post(
-            "http://127.0.0.1:8000/api/auth/clerk-callback",
+            getApiUrl("api/auth/clerk-callback"),
             {
               email,
               full_name: fullName,
@@ -140,8 +145,9 @@ export default function AuthCallback() {
           
           toast.success("Signed in with Google successfully!");
           
-          // Redirect to dashboard
-          window.location.href = "/dashboard";
+          // Check if profile is complete
+          const profileComplete = await checkProfileComplete();
+          window.location.href = profileComplete ? "/dashboard" : "/dashboard/profile";
         } catch (backendError) {
           console.error("Backend error:", backendError);
           if (axios.isAxiosError(backendError)) {

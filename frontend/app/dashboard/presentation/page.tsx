@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { getApiUrl } from "@/lib/api";
 import { 
   Presentation, 
   Loader2, 
@@ -73,7 +74,7 @@ export default function PresentationPage() {
         const token = localStorage.getItem("token");
         if (!token) return;
 
-        const response = await axios.get("http://127.0.0.1:8000/api/auth/me", {
+        const response = await axios.get(getApiUrl("api/auth/me"), {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -100,7 +101,7 @@ export default function PresentationPage() {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.post(
-        "http://localhost:8000/api/presentation/outline",
+        getApiUrl("api/presentation/outline"),
         {
           prompt: topic,
           num_slides: numSlides,
@@ -135,7 +136,7 @@ export default function PresentationPage() {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.post(
-        "http://localhost:8000/api/presentation/generate",
+        getApiUrl("api/presentation/generate"),
         {
           title: title,
           prompt: topic,
@@ -183,7 +184,7 @@ export default function PresentationPage() {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.post(
-        "http://localhost:8000/api/presentation/download",
+        getApiUrl("api/presentation/download"),
         {
           title: title,
           slides: slides,
@@ -228,7 +229,7 @@ export default function PresentationPage() {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        "http://localhost:8000/api/presentation/history",
+        getApiUrl("api/presentation/history"),
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -253,7 +254,7 @@ export default function PresentationPage() {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        `http://localhost:8000/api/presentation/history/${pptId}`,
+        getApiUrl(`api/presentation/history/${pptId}`),
         {
           headers: {
             Authorization: `Bearer ${token}`,
