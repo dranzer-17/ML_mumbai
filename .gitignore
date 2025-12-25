@@ -1,0 +1,35 @@
+# Environment variables
+.env
+.env.*
+*.env
+.env.local
+.env*.local
+
+# Backend
+backend/.env
+backend/.env.*
+backend/logs/
+backend/__pycache__/
+backend/*.pyc
+
+# Frontend
+frontend/.env.local
+frontend/.env*.local
+frontend/.next/
+frontend/node_modules/
+frontend/.vercel
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
