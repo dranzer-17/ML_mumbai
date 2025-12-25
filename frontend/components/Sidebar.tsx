@@ -24,7 +24,7 @@ export default function Sidebar() {
 
   const handleLogout = () => {
     localStorage.removeItem("token");
-    window.location.href = "/"; // Hard refresh to clear state
+    window.location.href = "/";
   };
 
   const menuItems = [

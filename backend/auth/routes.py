@@ -3,7 +3,7 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import JWTError, jwt
 
 from database import db, get_next_sequence
-from auth.schemas import UserCreate, Token, UserResponse
+from auth.schemas import UserCreate, Token, UserResponse, ClerkCallback
 from auth.security import get_password_hash, verify_password, create_access_token
 from config import SECRET_KEY, ALGORITHM
 from logger import get_logger
@@ -69,9 +69,15 @@ def signup(user: UserCreate):
     logger.info(f"[SIGNUP] Checking if email already exists: {user.email}")
     existing_user = db["users"].find_one({"email": user.email})
     if existing_user:
-        logger.warning(f"[SIGNUP FAILED] Email already registered: {user.email}")
-        logger.info("=" * 80)
-        raise HTTPException(status_code=400, detail="Email already registered")
+        # Check if user signed up with Google
+        if "hashed_password" not in existing_user or not existing_user.get("hashed_password"):
+            logger.warning(f"[SIGNUP FAILED] Email already registered with Google: {user.email}")
+            logger.info("=" * 80)
+            raise HTTPException(status_code=400, detail="Email already registered with Google. Please sign in with Google.")
+        else:
+            logger.warning(f"[SIGNUP FAILED] Email already registered: {user.email}")
+            logger.info("=" * 80)
+            raise HTTPException(status_code=400, detail="Email already registered")
     logger.info(f"[SIGNUP] Email is available: {user.email}")
     
     # Validate password length
@@ -185,6 +191,61 @@ def login(form_data: OAuth2PasswordRequestForm = Depends()):
     logger.info(f"[LOGIN SUCCESS] User {form_data.username} logged in successfully")
     logger.info("=" * 80)
     return {"access_token": access_token, "token_type": "bearer"}
+
+@router.post("/clerk-callback", response_model=Token)
+def clerk_callback(callback_data: ClerkCallback):
+    logger.info("=" * 80)
+    logger.info(f"[CLERK_CALLBACK START] Email: {callback_data.email}")
+    logger.info(f"[CLERK_CALLBACK] Full name: {callback_data.full_name if callback_data.full_name else 'None'}")
+    
+    # Check if user already exists
+    logger.info(f"[CLERK_CALLBACK] Checking if email already exists: {callback_data.email}")
+    existing_user = db["users"].find_one({"email": callback_data.email})
+    
+    if existing_user:
+        # User exists - check if they have a password (email/password signup)
+        if "hashed_password" in existing_user and existing_user["hashed_password"]:
+            logger.warning(f"[CLERK_CALLBACK FAILED] Email already registered with password: {callback_data.email}")
+            logger.info("=" * 80)
+            raise HTTPException(
+                status_code=400, 
+                detail="Email already registered. Please use email/password login."
+            )
+        else:
+            # User exists but signed up with Google before - just generate token
+            logger.info(f"[CLERK_CALLBACK] User exists (OAuth user), generating token: {callback_data.email}")
+            access_token = create_access_token(data={"sub": callback_data.email})
+            logger.info(f"[CLERK_CALLBACK SUCCESS] User {callback_data.email} logged in via Google")
+            logger.info("=" * 80)
+            return {"access_token": access_token, "token_type": "bearer"}
+    
+    # New user - create account
+    logger.info(f"[CLERK_CALLBACK] Creating new user for: {callback_data.email}")
+    try:
+        user_dict = {
+            "email": callback_data.email,
+            "full_name": callback_data.full_name,
+            "user_id": get_next_sequence("users"),
+            "auth_provider": "google"
+        }
+        
+        logger.info(f"[CLERK_CALLBACK] Generated user_id: {user_dict['user_id']}")
+        logger.info(f"[CLERK_CALLBACK] Inserting user into MongoDB")
+        result = db["users"].insert_one(user_dict)
+        logger.info(f"[CLERK_CALLBACK] User inserted successfully with _id: {result.inserted_id}")
+        
+        # Generate token
+        logger.info(f"[CLERK_CALLBACK] Generating JWT access token for: {callback_data.email}")
+        access_token = create_access_token(data={"sub": callback_data.email})
+        logger.info(f"[CLERK_CALLBACK] Access token generated (length: {len(access_token)})")
+        
+        logger.info(f"[CLERK_CALLBACK SUCCESS] User {callback_data.email} registered and logged in via Google (user_id: {user_dict['user_id']})")
+        logger.info("=" * 80)
+        return {"access_token": access_token, "token_type": "bearer"}
+    except Exception as e:
+        logger.error(f"[CLERK_CALLBACK ERROR] Unexpected error for {callback_data.email}: {type(e).__name__} - {e}")
+        logger.info("=" * 80)
+        raise HTTPException(status_code=500, detail="Internal server error during Clerk callback")
 
 @router.get("/me", response_model=UserResponse)
 def read_users_me(current_user: dict = Depends(get_current_user)):

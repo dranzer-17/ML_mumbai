@@ -26,7 +26,6 @@ export default function DashboardHome() {
         setUserName(response.data.full_name || response.data.email.split("@")[0]);
       } catch (error) {
         console.error("Failed to fetch user data:", error);
-        // If token is invalid, redirect to login
         localStorage.removeItem("token");
         window.location.href = "/login";
       } finally {

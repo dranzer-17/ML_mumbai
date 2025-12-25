@@ -26,3 +26,8 @@ class UserResponse(UserBase):
 class Token(BaseModel):
     access_token: str
     token_type: str
+
+# Schema for Clerk OAuth Callback
+class ClerkCallback(BaseModel):
+    email: EmailStr
+    full_name: str | None = None
