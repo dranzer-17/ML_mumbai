@@ -12,6 +12,7 @@ from workflow import routes as workflow_routes
 from presentation import routes as presentation_routes
 from transcription import routes as transcription_routes
 from video_transcript import routes as video_transcript_routes
+from agent import routes as agent_routes
 
 # --- LOGGING SETUP ---
 # 1. Create logs directory if it doesn't exist
@@ -72,7 +73,8 @@ app.include_router(flashcard_routes.router, prefix="/api/flashcards", tags=["Fla
 app.include_router(workflow_routes.router, prefix="/api/workflow", tags=["Workflow"])
 app.include_router(presentation_routes.router, prefix="/api", tags=["Presentation"])
 app.include_router(transcription_routes.router, tags=["Transcription"])
-app.include_router(video_transcript_routes.router, tags=["Video Transcript"]) 
+app.include_router(video_transcript_routes.router, tags=["Video Transcript"])
+app.include_router(agent_routes.router, prefix="/api", tags=["Agent Tutor"]) 
 
 # --- EVENTS ---
 @app.on_event("startup")

@@ -10,6 +10,61 @@ from logger import get_logger
 logger = get_logger(__name__)
 
 
+def transcribe_audio_elevenlabs(audio_data: bytes, language_code: str = "en") -> dict:
+    """
+    Convert speech audio to text using ElevenLabs STT API
+    
+    Args:
+        audio_data: Audio file bytes
+        language_code: Language code (e.g., 'en', 'es', 'fr')
+        
+    Returns:
+        dict with success, transcript, and optional error
+    """
+    api_key = os.getenv("ELEVENLABS_API_KEY")
+    if not api_key:
+        logger.warning("ELEVENLABS_API_KEY not found, falling back to AssemblyAI")
+        return transcribe_audio_assemblyai(audio_data, language_code)
+    
+    try:
+        logger.info("Transcribing audio with ElevenLabs")
+        
+        # ElevenLabs STT API endpoint
+        stt_url = "https://api.elevenlabs.io/v1/speech-to-text"
+        headers = {
+            "xi-api-key": api_key
+        }
+        
+        # Prepare multipart form data
+        files = {
+            "audio": ("audio.webm", audio_data, "audio/webm")
+        }
+        data = {
+            "model_id": "eleven_multilingual_v2"  # or "eleven_monolingual_v1" for English only
+        }
+        
+        response = requests.post(stt_url, headers=headers, files=files, data=data)
+        response.raise_for_status()
+        
+        result = response.json()
+        transcript = result.get("text", "")
+        
+        if transcript:
+            logger.info("Successfully transcribed audio with ElevenLabs")
+            return {
+                "success": True,
+                "transcript": transcript
+            }
+        else:
+            logger.warning("ElevenLabs returned empty transcript, falling back to AssemblyAI")
+            return transcribe_audio_assemblyai(audio_data, language_code)
+            
+    except Exception as e:
+        error_msg = f"ElevenLabs transcription error: {str(e)}"
+        logger.warning(f"{error_msg}, falling back to AssemblyAI")
+        return transcribe_audio_assemblyai(audio_data, language_code)
+
+
 def transcribe_audio_assemblyai(audio_data: bytes, language_code: str = "en") -> dict:
     """
     Convert speech audio to text using AssemblyAI

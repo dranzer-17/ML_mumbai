@@ -27,3 +27,1777 @@
 2025-12-25 16:16:49,206 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah2509@gmail.com
 2025-12-25 16:16:49,234 - auth.routes - WARNING - [GET_CURRENT_USER FAILED] User not found in database: kavish17shah2509@gmail.com
 2025-12-25 16:16:49,234 - auth.routes - INFO - ================================================================================
+2025-12-25 16:20:57,852 - auth.routes - INFO - ================================================================================
+2025-12-25 16:20:57,852 - auth.routes - INFO - [CLERK_CALLBACK START] Email: socialkavish@gmail.com
+2025-12-25 16:20:57,852 - auth.routes - INFO - [CLERK_CALLBACK] Full name: Kavish Shah
+2025-12-25 16:20:57,852 - auth.routes - INFO - [CLERK_CALLBACK] Checking if email already exists: socialkavish@gmail.com
+2025-12-25 16:20:57,861 - auth.routes - INFO - [CLERK_CALLBACK] Creating new user for: socialkavish@gmail.com
+2025-12-25 16:20:57,894 - auth.routes - INFO - [CLERK_CALLBACK] Generated user_id: 1
+2025-12-25 16:20:57,894 - auth.routes - INFO - [CLERK_CALLBACK] Inserting user into MongoDB
+2025-12-25 16:20:57,919 - auth.routes - INFO - [CLERK_CALLBACK] User inserted successfully with _id: 694d1711f39086f75ebb4738
+2025-12-25 16:20:57,919 - auth.routes - INFO - [CLERK_CALLBACK] Generating JWT access token for: socialkavish@gmail.com
+2025-12-25 16:20:57,919 - auth.routes - INFO - [CLERK_CALLBACK] Access token generated (length: 147)
+2025-12-25 16:20:57,919 - auth.routes - INFO - [CLERK_CALLBACK SUCCESS] User socialkavish@gmail.com registered and logged in via Google (user_id: 1)
+2025-12-25 16:20:57,919 - auth.routes - INFO - ================================================================================
+2025-12-25 16:20:58,003 - auth.routes - INFO - ================================================================================
+2025-12-25 16:20:58,003 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:20:58,003 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:20:58,003 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:20:58,003 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:20:58,004 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:20:58,004 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:20:58,004 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:20:58,004 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:20:58,004 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:20:58,015 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:20:58,016 - auth.routes - INFO - ================================================================================
+2025-12-25 16:20:58,016 - auth.routes - INFO - ================================================================================
+2025-12-25 16:20:58,016 - auth.routes - INFO - [GET /me] Request received for user: socialkavish@gmail.com
+2025-12-25 16:20:58,016 - auth.routes - INFO - [GET /me] Returning user data: user_id=1, full_name=Kavish Shah, profile_complete=False
+2025-12-25 16:20:58,016 - auth.routes - INFO - ================================================================================
+2025-12-25 16:20:58,266 - auth.routes - INFO - ================================================================================
+2025-12-25 16:20:58,266 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:20:58,266 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:20:58,266 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:20:58,266 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:20:58,267 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:20:58,267 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:20:58,267 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:20:58,267 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:20:58,267 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:20:58,275 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:20:58,275 - auth.routes - INFO - ================================================================================
+2025-12-25 16:20:58,275 - auth.routes - INFO - ================================================================================
+2025-12-25 16:20:58,275 - auth.routes - INFO - [GET /me] Request received for user: socialkavish@gmail.com
+2025-12-25 16:20:58,275 - auth.routes - INFO - [GET /me] Returning user data: user_id=1, full_name=Kavish Shah, profile_complete=False
+2025-12-25 16:20:58,275 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:05,590 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:05,590 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:21:05,590 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:21:05,591 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:21:05,591 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:21:05,591 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:21:05,591 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:21:05,591 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:21:05,591 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:21:05,591 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:21:05,616 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:21:05,616 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:05,617 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:05,617 - auth.routes - INFO - [UPDATE_PROFILE START] User: socialkavish@gmail.com
+2025-12-25 16:21:05,617 - auth.routes - INFO - [UPDATE_PROFILE] Profile data: {'learner_type': 'teacher', 'age_group': 'mature_adult', 'learning_goals': ['Teaching Others'], 'preferred_learning_style': 'visual', 'interests': ['Language', 'Technology'], 'education_level': 'middle_school'}
+2025-12-25 16:21:05,707 - auth.routes - INFO - [UPDATE_PROFILE SUCCESS] Profile updated for socialkavish@gmail.com
+2025-12-25 16:21:05,707 - auth.routes - INFO - [UPDATE_PROFILE] Profile complete: True
+2025-12-25 16:21:05,707 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:06,795 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:06,796 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:21:06,796 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:21:06,796 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:21:06,796 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:21:06,796 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:21:06,796 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:21:06,797 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:21:06,797 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:21:06,797 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:21:06,828 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:21:06,828 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:06,829 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:06,829 - auth.routes - INFO - [GET /me] Request received for user: socialkavish@gmail.com
+2025-12-25 16:21:06,829 - auth.routes - INFO - [GET /me] Returning user data: user_id=1, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:21:06,829 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:06,834 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:06,834 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:21:06,834 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:21:06,834 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:21:06,834 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:21:06,834 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:21:06,834 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:21:06,834 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:21:06,834 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:21:06,834 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:21:06,870 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:21:06,870 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:06,870 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:06,871 - auth.routes - INFO - [GET /me] Request received for user: socialkavish@gmail.com
+2025-12-25 16:21:06,871 - auth.routes - INFO - [GET /me] Returning user data: user_id=1, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:21:06,871 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:20,255 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:20,256 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:21:20,256 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:21:20,256 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:21:20,256 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:21:20,256 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:21:20,256 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:21:20,256 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:21:20,256 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:21:20,256 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:21:20,263 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:21:20,263 - auth.routes - INFO - ================================================================================
+2025-12-25 16:21:20,264 - explainer.routes - INFO - ================================================================================
+2025-12-25 16:21:20,264 - explainer.routes - INFO - [EXPLAINER ROUTE] POST /generate endpoint called
+2025-12-25 16:21:20,264 - explainer.routes - INFO - [EXPLAINER ROUTE] Parameters received:
+2025-12-25 16:21:20,264 - explainer.routes - INFO - [EXPLAINER ROUTE]   - complexity: medium
+2025-12-25 16:21:20,264 - explainer.routes - INFO - [EXPLAINER ROUTE]   - text provided: No
+2025-12-25 16:21:20,264 - explainer.routes - INFO - [EXPLAINER ROUTE]   - url provided: Yes
+2025-12-25 16:21:20,264 - explainer.routes - INFO - [EXPLAINER ROUTE]   - pdf provided: No
+2025-12-25 16:21:20,264 - explainer.routes - INFO - [EXPLAINER ROUTE] Processing URL source
+2025-12-25 16:21:20,264 - core.url_extractor - INFO - ================================================================================
+2025-12-25 16:21:20,264 - core.url_extractor - INFO - [URL EXTRACT] Starting URL extraction
+2025-12-25 16:21:20,264 - core.url_extractor - INFO - [URL EXTRACT] Target URL: https://www.ibm.com/think/topics/deep-learning
+2025-12-25 16:21:20,265 - core.url_extractor - INFO - [URL EXTRACT] Initializing Tavily API call
+2025-12-25 16:21:20,265 - core.url_extractor - INFO - [URL EXTRACT] Tavily API key configured: Yes
+2025-12-25 16:21:20,265 - core.url_extractor - INFO - [URL EXTRACT] Calling Tavily extract API
+2025-12-25 16:21:21,164 - core.url_extractor - INFO - [URL EXTRACT] Tavily API response received
+2025-12-25 16:21:21,164 - core.url_extractor - INFO - [URL EXTRACT] Response length: 36584 characters
+2025-12-25 16:21:21,164 - core.url_extractor - INFO - [URL EXTRACT] Response type: <class 'dict'>
+2025-12-25 16:21:21,164 - core.url_extractor - WARNING - [URL EXTRACT] No results found in response, using fallback
+2025-12-25 16:21:21,164 - core.url_extractor - INFO - [URL EXTRACT] URL extraction completed successfully
+2025-12-25 16:21:21,164 - core.url_extractor - INFO - ================================================================================
+2025-12-25 16:21:21,164 - explainer.routes - INFO - [EXPLAINER ROUTE] Content extracted from URL
+2025-12-25 16:21:21,164 - explainer.routes - INFO - [EXPLAINER ROUTE] Content length: 36584 characters
+2025-12-25 16:21:21,175 - explainer.routes - INFO - [EXPLAINER ROUTE] User profile loaded: learner_type=teacher, age_group=mature_adult
+2025-12-25 16:21:21,175 - explainer.routes - INFO - [EXPLAINER ROUTE] Calling explanation service
+2025-12-25 16:21:21,175 - explainer.services - INFO - ================================================================================
+2025-12-25 16:21:21,175 - explainer.services - INFO - [EXPLAINER] Starting explanation generation
+2025-12-25 16:21:21,175 - explainer.services - INFO - [EXPLAINER] Source type: URL
+2025-12-25 16:21:21,175 - explainer.services - INFO - [EXPLAINER] Complexity: medium
+2025-12-25 16:21:21,175 - explainer.services - INFO - [EXPLAINER] Content length: 36584 characters
+2025-12-25 16:21:21,175 - core.validators - INFO - [VALIDATION] Content validated: 36584 characters
+2025-12-25 16:21:21,175 - explainer.services - INFO - [EXPLAINER] Building prompt for Gemini AI
+2025-12-25 16:21:21,175 - explainer.services - INFO - [EXPLAINER] Prompt length: 17374 characters
+2025-12-25 16:21:21,175 - explainer.services - INFO - [EXPLAINER] Sending request to Gemini AI
+2025-12-25 16:21:21,175 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:21:21,175 - core.gemini_client - INFO - [EXPLAINER] Starting Gemini AI generation
+2025-12-25 16:21:21,175 - core.gemini_client - INFO - [EXPLAINER] Using API Key #1 of 2
+2025-12-25 16:21:21,175 - core.gemini_client - INFO - [EXPLAINER] Prompt length: 17374 characters
+2025-12-25 16:21:21,175 - core.gemini_client - INFO - [EXPLAINER] Model: gemini-2.5-flash
+2025-12-25 16:21:21,216 - core.gemini_client - INFO - [EXPLAINER] Attempting API call with client.models.generate_content
+2025-12-25 16:21:21,216 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:21:53,842 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:21:53,845 - core.gemini_client - INFO - [EXPLAINER] API call successful with Key #1
+2025-12-25 16:21:53,845 - core.gemini_client - INFO - [EXPLAINER] Response received: 26231 characters
+2025-12-25 16:21:53,845 - core.gemini_client - INFO - [EXPLAINER] Response preview: {"title": "Unlocking Deep Learning: A Teacher's Guide to Smarter AI", "summary": "Deep learning is a powerful subset of Artificial Intelligence (AI) that uses multi-layered 'neural networks' inspired ...
+2025-12-25 16:21:53,845 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:21:53,846 - explainer.services - INFO - [EXPLAINER] Explanation generated: 26231 characters
+2025-12-25 16:21:53,847 - explainer.services - INFO - [EXPLAINER] Successfully parsed JSON response
+2025-12-25 16:21:53,847 - explainer.services - INFO - [EXPLAINER] Explanation completed successfully
+2025-12-25 16:21:53,847 - explainer.services - INFO - ================================================================================
+2025-12-25 16:21:53,847 - explainer.routes - INFO - [EXPLAINER ROUTE] Explanation generated successfully
+2025-12-25 16:21:53,847 - explainer.routes - INFO - ================================================================================
+2025-12-25 16:25:15,194 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:25:23,703 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:25:36,517 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:27:03,056 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:27:21,676 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:27:23,326 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:27:32,473 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:27:35,134 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:27:38,106 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:27:52,117 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:27:55,493 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:27:59,473 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:28:02,887 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:28:22,668 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:28:47,986 - auth.routes - INFO - ================================================================================
+2025-12-25 16:28:47,986 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:28:47,986 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:28:47,986 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:28:47,986 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:28:47,988 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:28:47,988 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:28:47,989 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:28:47,989 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:28:47,989 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:28:47,997 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:28:47,997 - auth.routes - INFO - ================================================================================
+2025-12-25 16:28:47,998 - workflow.routes - INFO - Fetching workflow history for user 1
+2025-12-25 16:30:27,753 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:30:46,798 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:30:51,036 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:31:58,356 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:38:08,191 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:40:29,897 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:40:33,105 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:41:25,879 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:41:45,391 - auth.routes - INFO - ================================================================================
+2025-12-25 16:41:45,391 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:41:45,391 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:41:45,391 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:41:45,391 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:41:45,393 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:41:45,393 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:41:45,393 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:41:45,393 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:41:45,393 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:41:45,416 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:41:45,416 - auth.routes - INFO - ================================================================================
+2025-12-25 16:41:45,417 - agent.routes - INFO - ================================================================================
+2025-12-25 16:41:45,417 - agent.routes - INFO - [AGENT CHAT] POST /chat endpoint called
+2025-12-25 16:41:45,417 - agent.routes - INFO - [AGENT CHAT] Message: explain me the topic of deep learning...
+2025-12-25 16:41:45,417 - agent.routes - INFO - [AGENT CHAT] Session ID: main
+2025-12-25 16:41:45,417 - agent.routes - INFO - [AGENT CHAT] PDF provided: No
+2025-12-25 16:41:45,418 - agent.routes - WARNING - [AGENT CHAT] Could not load user profile: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-12-25 16:41:45,418 - agent.context_manager - INFO - [CONTEXT] Created new context for session socialkavish@gmail.com_main
+2025-12-25 16:41:45,418 - agent.orchestrator - INFO - ================================================================================
+2025-12-25 16:41:45,418 - agent.orchestrator - INFO - [AGENT] Processing message: explain me the topic of deep learning...
+2025-12-25 16:41:45,418 - agent.context_manager - INFO - [CONTEXT] Added user message: explain me the topic of deep learning...
+2025-12-25 16:41:45,458 - agent.orchestrator - INFO - [AGENT] Calling Gemini with 4 tools available
+2025-12-25 16:41:45,458 - agent.orchestrator - WARNING - [AGENT] Direct function calling failed, using prompt-based approach: Models.generate_content() got an unexpected keyword argument 'tools'
+2025-12-25 16:41:45,458 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:41:47,708 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:41:47,710 - agent.orchestrator - INFO - [AGENT] 1 function call(s) detected
+2025-12-25 16:41:47,710 - agent.orchestrator - INFO - [AGENT] Executing tool:  with args: []
+2025-12-25 16:41:47,710 - agent.orchestrator - ERROR - [AGENT] Tool execution error: 400: Unknown tool: 
+2025-12-25 16:41:47,710 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:41:50,602 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:41:50,604 - agent.context_manager - INFO - [CONTEXT] Added assistant message: I apologize, but it seems there was an error when trying to use the `explain_content` tool to provid...
+2025-12-25 16:41:50,604 - agent.orchestrator - INFO - [AGENT] Response generated: 520 characters
+2025-12-25 16:41:50,604 - agent.orchestrator - INFO - ================================================================================
+2025-12-25 16:41:50,604 - agent.routes - INFO - [AGENT CHAT] Response generated successfully
+2025-12-25 16:41:50,604 - agent.routes - INFO - ================================================================================
+2025-12-25 16:42:54,183 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:43:02,320 - auth.routes - INFO - ================================================================================
+2025-12-25 16:43:02,320 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:43:02,321 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:43:02,321 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:43:02,321 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:43:02,323 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:43:02,323 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:43:02,323 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:43:02,323 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:43:02,323 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:43:02,344 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:43:02,344 - auth.routes - INFO - ================================================================================
+2025-12-25 16:43:02,345 - agent.routes - INFO - ================================================================================
+2025-12-25 16:43:02,345 - agent.routes - INFO - [AGENT CHAT] POST /chat endpoint called
+2025-12-25 16:43:02,345 - agent.routes - INFO - [AGENT CHAT] Message: explain me the topic of deep learning...
+2025-12-25 16:43:02,345 - agent.routes - INFO - [AGENT CHAT] Session ID: main
+2025-12-25 16:43:02,345 - agent.routes - INFO - [AGENT CHAT] PDF provided: No
+2025-12-25 16:43:02,345 - agent.routes - WARNING - [AGENT CHAT] Could not load user profile: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-12-25 16:43:02,345 - agent.context_manager - INFO - [CONTEXT] Created new context for session socialkavish@gmail.com_main
+2025-12-25 16:43:02,346 - agent.orchestrator - INFO - ================================================================================
+2025-12-25 16:43:02,346 - agent.orchestrator - INFO - [AGENT] Processing message: explain me the topic of deep learning...
+2025-12-25 16:43:02,346 - agent.context_manager - INFO - [CONTEXT] Added user message: explain me the topic of deep learning...
+2025-12-25 16:43:02,380 - agent.orchestrator - INFO - [AGENT] Calling Gemini with 4 tools available
+2025-12-25 16:43:02,380 - agent.orchestrator - WARNING - [AGENT] Direct function calling failed, using prompt-based approach: Models.generate_content() got an unexpected keyword argument 'tools'
+2025-12-25 16:43:02,380 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:43:09,433 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:43:09,435 - agent.orchestrator - INFO - [AGENT] 1 function call(s) detected
+2025-12-25 16:43:09,435 - agent.orchestrator - INFO - [AGENT] Executing tool:  with args: []
+2025-12-25 16:43:09,435 - agent.orchestrator - ERROR - [AGENT] Tool execution error: 400: Unknown tool: 
+2025-12-25 16:43:09,435 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:43:12,804 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:43:12,806 - agent.context_manager - INFO - [CONTEXT] Added assistant message: You asked me to explain the topic of deep learning.
+
+It seems like there was an issue trying to use ...
+2025-12-25 16:43:12,806 - agent.orchestrator - INFO - [AGENT] Response generated: 479 characters
+2025-12-25 16:43:12,806 - agent.orchestrator - INFO - ================================================================================
+2025-12-25 16:43:12,807 - agent.routes - INFO - [AGENT CHAT] Response generated successfully
+2025-12-25 16:43:12,807 - agent.routes - INFO - ================================================================================
+2025-12-25 16:44:22,736 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:44:25,215 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:44:27,769 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:44:46,248 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:45:02,847 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:45:22,836 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:45:36,901 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:45:47,187 - auth.routes - INFO - ================================================================================
+2025-12-25 16:45:47,187 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:45:47,187 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:45:47,187 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:45:47,187 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:45:47,190 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:45:47,190 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:45:47,190 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:45:47,190 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:45:47,190 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:45:47,206 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:45:47,206 - auth.routes - INFO - ================================================================================
+2025-12-25 16:45:47,207 - agent.routes - INFO - ================================================================================
+2025-12-25 16:45:47,207 - agent.routes - INFO - [AGENT CHAT] POST /chat endpoint called
+2025-12-25 16:45:47,207 - agent.routes - INFO - [AGENT CHAT] Message: explain me the concept of deep learning...
+2025-12-25 16:45:47,207 - agent.routes - INFO - [AGENT CHAT] Session ID: main
+2025-12-25 16:45:47,207 - agent.routes - INFO - [AGENT CHAT] PDF provided: No
+2025-12-25 16:45:47,207 - agent.routes - WARNING - [AGENT CHAT] Could not load user profile: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None
+2025-12-25 16:45:47,207 - agent.context_manager - INFO - [CONTEXT] Created new context for session socialkavish@gmail.com_main
+2025-12-25 16:45:47,207 - agent.orchestrator - INFO - ================================================================================
+2025-12-25 16:45:47,207 - agent.orchestrator - INFO - [AGENT] Processing message: explain me the concept of deep learning...
+2025-12-25 16:45:47,207 - agent.context_manager - INFO - [CONTEXT] Added user message: explain me the concept of deep learning...
+2025-12-25 16:45:47,249 - agent.orchestrator - INFO - [AGENT] Calling Gemini with 4 tools available
+2025-12-25 16:45:47,249 - agent.orchestrator - WARNING - [AGENT] Direct function calling failed, using prompt-based approach: Models.generate_content() got an unexpected keyword argument 'tools'
+2025-12-25 16:45:47,249 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:45:49,284 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:45:49,286 - agent.orchestrator - INFO - [AGENT] No function calls detected, parsing intent from response/user message
+2025-12-25 16:45:49,287 - agent.orchestrator - INFO - [AGENT] Parsed tool intent from JSON: explain_content
+2025-12-25 16:45:49,287 - agent.orchestrator - INFO - [AGENT] Parsed tool intent: explain_content
+2025-12-25 16:45:49,287 - agent.orchestrator - INFO - [AGENT] 1 function call(s) detected
+2025-12-25 16:45:49,287 - agent.orchestrator - INFO - [AGENT] Executing tool: explain_content with args: ['text', 'complexity']
+2025-12-25 16:45:49,287 - agent.orchestrator - INFO - [AGENT] Treating text as topic request: deep learning...
+2025-12-25 16:45:49,287 - agent.services - INFO - [AGENT TOOL] Executing explain_content: text=True, url=False, pdf=False
+2025-12-25 16:45:49,287 - agent.orchestrator - ERROR - [AGENT] Tool execution error: 400: Content too short. Minimum 50 characters required.
+2025-12-25 16:45:49,287 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:45:58,907 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:45:58,908 - agent.context_manager - INFO - [CONTEXT] Added assistant message: I tried to use the `explain_content` tool to break down "the concept of deep learning," but it seems...
+2025-12-25 16:45:58,909 - agent.orchestrator - INFO - [AGENT] Response generated: 3516 characters
+2025-12-25 16:45:58,909 - agent.orchestrator - INFO - ================================================================================
+2025-12-25 16:45:58,909 - agent.routes - INFO - [AGENT CHAT] Response generated successfully
+2025-12-25 16:45:58,909 - agent.routes - INFO - ================================================================================
+2025-12-25 16:46:45,403 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:47:08,390 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:47:31,695 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 16:47:38,574 - auth.routes - INFO - ================================================================================
+2025-12-25 16:47:38,574 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:47:38,574 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:47:38,574 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:47:38,574 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:47:38,576 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:47:38,577 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:47:38,577 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:47:38,577 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:47:38,577 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:47:38,719 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:47:38,719 - auth.routes - INFO - ================================================================================
+2025-12-25 16:47:38,720 - auth.routes - INFO - ================================================================================
+2025-12-25 16:47:38,720 - auth.routes - INFO - [GET /me] Request received for user: socialkavish@gmail.com
+2025-12-25 16:47:38,720 - auth.routes - INFO - [GET /me] Returning user data: user_id=1, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:47:38,720 - auth.routes - INFO - ================================================================================
+2025-12-25 16:47:38,732 - auth.routes - INFO - ================================================================================
+2025-12-25 16:47:38,732 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:47:38,732 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:47:38,732 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:47:38,732 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:47:38,732 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:47:38,732 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:47:38,732 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: socialkavish@gmail.com
+2025-12-25 16:47:38,732 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798195857
+2025-12-25 16:47:38,732 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: socialkavish@gmail.com
+2025-12-25 16:47:38,889 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: socialkavish@gmail.com, user_id: 1
+2025-12-25 16:47:38,889 - auth.routes - INFO - ================================================================================
+2025-12-25 16:47:38,889 - auth.routes - INFO - ================================================================================
+2025-12-25 16:47:38,890 - auth.routes - INFO - [GET /me] Request received for user: socialkavish@gmail.com
+2025-12-25 16:47:38,890 - auth.routes - INFO - [GET /me] Returning user data: user_id=1, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:47:38,890 - auth.routes - INFO - ================================================================================
+2025-12-25 16:50:52,037 - auth.routes - INFO - ================================================================================
+2025-12-25 16:50:52,037 - auth.routes - INFO - [CLERK_CALLBACK START] Email: kavish17shah2509@gmail.com
+2025-12-25 16:50:52,037 - auth.routes - INFO - [CLERK_CALLBACK] Full name: Kavish Shah
+2025-12-25 16:50:52,037 - auth.routes - INFO - [CLERK_CALLBACK] Checking if email already exists: kavish17shah2509@gmail.com
+2025-12-25 16:50:52,050 - auth.routes - INFO - [CLERK_CALLBACK] Creating new user for: kavish17shah2509@gmail.com
+2025-12-25 16:50:52,075 - auth.routes - INFO - [CLERK_CALLBACK] Generated user_id: 2
+2025-12-25 16:50:52,075 - auth.routes - INFO - [CLERK_CALLBACK] Inserting user into MongoDB
+2025-12-25 16:50:52,095 - auth.routes - INFO - [CLERK_CALLBACK] User inserted successfully with _id: 694d1e141fc3ed0dc4bbaa2a
+2025-12-25 16:50:52,095 - auth.routes - INFO - [CLERK_CALLBACK] Generating JWT access token for: kavish17shah2509@gmail.com
+2025-12-25 16:50:52,095 - auth.routes - INFO - [CLERK_CALLBACK] Access token generated (length: 152)
+2025-12-25 16:50:52,095 - auth.routes - INFO - [CLERK_CALLBACK SUCCESS] User kavish17shah2509@gmail.com registered and logged in via Google (user_id: 2)
+2025-12-25 16:50:52,095 - auth.routes - INFO - ================================================================================
+2025-12-25 16:50:52,167 - auth.routes - INFO - ================================================================================
+2025-12-25 16:50:52,167 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:50:52,167 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 152
+2025-12-25 16:50:52,167 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:50:52,167 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:50:52,168 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:50:52,168 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:50:52,168 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah2509@gmail.com
+2025-12-25 16:50:52,168 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197652
+2025-12-25 16:50:52,168 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah2509@gmail.com
+2025-12-25 16:50:52,181 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah2509@gmail.com, user_id: 2
+2025-12-25 16:50:52,181 - auth.routes - INFO - ================================================================================
+2025-12-25 16:50:52,181 - auth.routes - INFO - ================================================================================
+2025-12-25 16:50:52,181 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah2509@gmail.com
+2025-12-25 16:50:52,182 - auth.routes - INFO - [GET /me] Returning user data: user_id=2, full_name=Kavish Shah, profile_complete=False
+2025-12-25 16:50:52,182 - auth.routes - INFO - ================================================================================
+2025-12-25 16:50:52,506 - auth.routes - INFO - ================================================================================
+2025-12-25 16:50:52,506 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:50:52,506 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 152
+2025-12-25 16:50:52,506 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:50:52,506 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:50:52,506 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:50:52,506 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:50:52,506 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah2509@gmail.com
+2025-12-25 16:50:52,506 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197652
+2025-12-25 16:50:52,506 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah2509@gmail.com
+2025-12-25 16:50:52,527 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah2509@gmail.com, user_id: 2
+2025-12-25 16:50:52,527 - auth.routes - INFO - ================================================================================
+2025-12-25 16:50:52,527 - auth.routes - INFO - ================================================================================
+2025-12-25 16:50:52,528 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah2509@gmail.com
+2025-12-25 16:50:52,528 - auth.routes - INFO - [GET /me] Returning user data: user_id=2, full_name=Kavish Shah, profile_complete=False
+2025-12-25 16:50:52,528 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:04,015 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:04,015 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:51:04,015 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 152
+2025-12-25 16:51:04,015 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:51:04,016 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:51:04,016 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:51:04,016 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:51:04,016 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah2509@gmail.com
+2025-12-25 16:51:04,016 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197652
+2025-12-25 16:51:04,016 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah2509@gmail.com
+2025-12-25 16:51:04,033 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah2509@gmail.com, user_id: 2
+2025-12-25 16:51:04,033 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:04,034 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:04,034 - auth.routes - INFO - [UPDATE_PROFILE START] User: kavish17shah2509@gmail.com
+2025-12-25 16:51:04,034 - auth.routes - INFO - [UPDATE_PROFILE] Profile data: {'learner_type': 'student', 'age_group': 'teen', 'learning_goals': ['Career Advancement'], 'preferred_learning_style': 'auditory', 'interests': ['Mathematics'], 'education_level': 'middle_school'}
+2025-12-25 16:51:04,075 - auth.routes - INFO - [UPDATE_PROFILE SUCCESS] Profile updated for kavish17shah2509@gmail.com
+2025-12-25 16:51:04,075 - auth.routes - INFO - [UPDATE_PROFILE] Profile complete: True
+2025-12-25 16:51:04,075 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:05,190 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:05,190 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:51:05,190 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 152
+2025-12-25 16:51:05,190 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:51:05,190 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:51:05,190 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:51:05,190 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:51:05,190 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah2509@gmail.com
+2025-12-25 16:51:05,190 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197652
+2025-12-25 16:51:05,190 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah2509@gmail.com
+2025-12-25 16:51:05,230 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah2509@gmail.com, user_id: 2
+2025-12-25 16:51:05,230 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:05,230 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:05,230 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah2509@gmail.com
+2025-12-25 16:51:05,231 - auth.routes - INFO - [GET /me] Returning user data: user_id=2, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:51:05,231 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:05,236 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:05,236 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:51:05,236 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 152
+2025-12-25 16:51:05,236 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:51:05,236 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:51:05,236 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:51:05,236 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:51:05,236 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah2509@gmail.com
+2025-12-25 16:51:05,236 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197652
+2025-12-25 16:51:05,236 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah2509@gmail.com
+2025-12-25 16:51:05,248 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah2509@gmail.com, user_id: 2
+2025-12-25 16:51:05,248 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:05,249 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:05,249 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah2509@gmail.com
+2025-12-25 16:51:05,249 - auth.routes - INFO - [GET /me] Returning user data: user_id=2, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:51:05,249 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:58,048 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:58,048 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:51:58,048 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 152
+2025-12-25 16:51:58,048 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:51:58,048 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:51:58,049 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:51:58,049 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:51:58,049 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah2509@gmail.com
+2025-12-25 16:51:58,049 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197652
+2025-12-25 16:51:58,049 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah2509@gmail.com
+2025-12-25 16:51:58,068 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah2509@gmail.com, user_id: 2
+2025-12-25 16:51:58,069 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:58,069 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:58,069 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah2509@gmail.com
+2025-12-25 16:51:58,070 - auth.routes - INFO - [GET /me] Returning user data: user_id=2, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:51:58,070 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:58,074 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:58,074 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:51:58,074 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 152
+2025-12-25 16:51:58,074 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:51:58,074 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:51:58,074 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:51:58,074 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:51:58,074 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah2509@gmail.com
+2025-12-25 16:51:58,074 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197652
+2025-12-25 16:51:58,074 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah2509@gmail.com
+2025-12-25 16:51:58,082 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah2509@gmail.com, user_id: 2
+2025-12-25 16:51:58,082 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:58,083 - auth.routes - INFO - ================================================================================
+2025-12-25 16:51:58,083 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah2509@gmail.com
+2025-12-25 16:51:58,083 - auth.routes - INFO - [GET /me] Returning user data: user_id=2, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:51:58,083 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:30,416 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:30,417 - auth.routes - INFO - [CLERK_CALLBACK START] Email: kavish17shah@gmail.com
+2025-12-25 16:52:30,417 - auth.routes - INFO - [CLERK_CALLBACK] Full name: Kavish Shah
+2025-12-25 16:52:30,417 - auth.routes - INFO - [CLERK_CALLBACK] Checking if email already exists: kavish17shah@gmail.com
+2025-12-25 16:52:30,680 - auth.routes - INFO - [CLERK_CALLBACK] Creating new user for: kavish17shah@gmail.com
+2025-12-25 16:52:30,714 - auth.routes - INFO - [CLERK_CALLBACK] Generated user_id: 3
+2025-12-25 16:52:30,715 - auth.routes - INFO - [CLERK_CALLBACK] Inserting user into MongoDB
+2025-12-25 16:52:30,733 - auth.routes - INFO - [CLERK_CALLBACK] User inserted successfully with _id: 694d1e761fc3ed0dc4bbaa2b
+2025-12-25 16:52:30,733 - auth.routes - INFO - [CLERK_CALLBACK] Generating JWT access token for: kavish17shah@gmail.com
+2025-12-25 16:52:30,734 - auth.routes - INFO - [CLERK_CALLBACK] Access token generated (length: 147)
+2025-12-25 16:52:30,734 - auth.routes - INFO - [CLERK_CALLBACK SUCCESS] User kavish17shah@gmail.com registered and logged in via Google (user_id: 3)
+2025-12-25 16:52:30,734 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:30,804 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:30,805 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:52:30,805 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:52:30,805 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:52:30,805 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:52:30,805 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:52:30,805 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:52:30,805 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:52:30,805 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197750
+2025-12-25 16:52:30,805 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:52:30,864 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:52:30,864 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:30,865 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:30,865 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:52:30,865 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=False
+2025-12-25 16:52:30,865 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:31,127 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:31,127 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:52:31,127 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:52:31,127 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:52:31,127 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:52:31,128 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:52:31,128 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:52:31,128 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:52:31,128 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197750
+2025-12-25 16:52:31,128 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:52:31,146 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:52:31,146 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:31,147 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:31,147 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:52:31,147 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=False
+2025-12-25 16:52:31,147 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:39,690 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:39,690 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:52:39,690 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:52:39,690 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:52:39,690 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:52:39,691 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:52:39,691 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:52:39,691 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:52:39,691 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197750
+2025-12-25 16:52:39,691 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:52:39,708 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:52:39,708 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:39,709 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:39,709 - auth.routes - INFO - [UPDATE_PROFILE START] User: kavish17shah@gmail.com
+2025-12-25 16:52:39,709 - auth.routes - INFO - [UPDATE_PROFILE] Profile data: {'learner_type': 'student', 'age_group': 'young_adult', 'learning_goals': ['Career Advancement'], 'preferred_learning_style': 'kinesthetic', 'interests': ['History'], 'education_level': 'middle_school'}
+2025-12-25 16:52:39,749 - auth.routes - INFO - [UPDATE_PROFILE SUCCESS] Profile updated for kavish17shah@gmail.com
+2025-12-25 16:52:39,749 - auth.routes - INFO - [UPDATE_PROFILE] Profile complete: True
+2025-12-25 16:52:39,749 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:40,861 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:40,861 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:52:40,861 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:52:40,861 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:52:40,861 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:52:40,861 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:52:40,861 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:52:40,861 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:52:40,861 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197750
+2025-12-25 16:52:40,861 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:52:40,871 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:52:40,871 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:40,872 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:40,872 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:52:40,872 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:52:40,872 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:40,876 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:40,876 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:52:40,876 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:52:40,876 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:52:40,876 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:52:40,877 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:52:40,877 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:52:40,877 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:52:40,877 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197750
+2025-12-25 16:52:40,877 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:52:40,888 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:52:40,889 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:40,889 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:40,889 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:52:40,889 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:52:40,889 - auth.routes - INFO - ================================================================================
+2025-12-25 16:52:56,613 - video_transcript.services - INFO - [YOUTUBE] Processing video: https://youtu.be/6M5VXKLf4D4?si=6QMqzEkZxZ8uygle
+2025-12-25 16:52:58,787 - video_transcript.services - INFO - [YOUTUBE] Transcript length: 6536 characters
+2025-12-25 16:52:58,787 - video_transcript.services - INFO - [YOUTUBE] Transcript is short (6536 chars), cleaning and returning as simple paragraph
+2025-12-25 16:52:58,788 - video_transcript.services - INFO - [YOUTUBE] Processing completed successfully
+2025-12-25 16:53:07,165 - auth.routes - INFO - ================================================================================
+2025-12-25 16:53:07,165 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:53:07,166 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:53:07,166 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:53:07,166 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:53:07,166 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:53:07,166 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:53:07,166 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:53:07,167 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197750
+2025-12-25 16:53:07,167 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:53:09,625 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:53:09,625 - auth.routes - INFO - ================================================================================
+2025-12-25 16:53:09,626 - explainer.routes - INFO - ================================================================================
+2025-12-25 16:53:09,626 - explainer.routes - INFO - [EXPLAINER ROUTE] POST /generate endpoint called
+2025-12-25 16:53:09,626 - explainer.routes - INFO - [EXPLAINER ROUTE] Parameters received:
+2025-12-25 16:53:09,626 - explainer.routes - INFO - [EXPLAINER ROUTE]   - complexity: medium
+2025-12-25 16:53:09,626 - explainer.routes - INFO - [EXPLAINER ROUTE]   - text provided: Yes
+2025-12-25 16:53:09,626 - explainer.routes - INFO - [EXPLAINER ROUTE]   - url provided: No
+2025-12-25 16:53:09,627 - explainer.routes - INFO - [EXPLAINER ROUTE]   - pdf provided: No
+2025-12-25 16:53:09,627 - explainer.routes - INFO - [EXPLAINER ROUTE] Processing text source
+2025-12-25 16:53:09,627 - explainer.routes - INFO - [EXPLAINER ROUTE] Content extracted from TEXT
+2025-12-25 16:53:09,627 - explainer.routes - INFO - [EXPLAINER ROUTE] Content length: 5089 characters
+2025-12-25 16:53:11,247 - explainer.routes - INFO - [EXPLAINER ROUTE] User profile loaded: learner_type=student, age_group=young_adult
+2025-12-25 16:53:11,247 - explainer.routes - INFO - [EXPLAINER ROUTE] Calling explanation service
+2025-12-25 16:53:11,247 - explainer.services - INFO - ================================================================================
+2025-12-25 16:53:11,247 - explainer.services - INFO - [EXPLAINER] Starting explanation generation
+2025-12-25 16:53:11,248 - explainer.services - INFO - [EXPLAINER] Source type: TEXT
+2025-12-25 16:53:11,248 - explainer.services - INFO - [EXPLAINER] Complexity: medium
+2025-12-25 16:53:11,248 - explainer.services - INFO - [EXPLAINER] Content length: 5089 characters
+2025-12-25 16:53:11,248 - core.validators - INFO - [VALIDATION] Content validated: 5089 characters
+2025-12-25 16:53:11,248 - explainer.services - INFO - [EXPLAINER] Building prompt for Gemini AI
+2025-12-25 16:53:11,248 - explainer.services - INFO - [EXPLAINER] Prompt length: 7451 characters
+2025-12-25 16:53:11,248 - explainer.services - INFO - [EXPLAINER] Sending request to Gemini AI
+2025-12-25 16:53:11,248 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:53:11,248 - core.gemini_client - INFO - [EXPLAINER] Starting Gemini AI generation
+2025-12-25 16:53:11,248 - core.gemini_client - INFO - [EXPLAINER] Using API Key #1 of 2
+2025-12-25 16:53:11,248 - core.gemini_client - INFO - [EXPLAINER] Prompt length: 7451 characters
+2025-12-25 16:53:11,248 - core.gemini_client - INFO - [EXPLAINER] Model: gemini-2.5-flash
+2025-12-25 16:53:11,293 - core.gemini_client - INFO - [EXPLAINER] Attempting API call with client.models.generate_content
+2025-12-25 16:53:11,293 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:53:53,972 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:53:53,975 - core.gemini_client - INFO - [EXPLAINER] API call successful with Key #1
+2025-12-25 16:53:53,975 - core.gemini_client - INFO - [EXPLAINER] Response received: 23819 characters
+2025-12-25 16:53:53,975 - core.gemini_client - INFO - [EXPLAINER] Response preview: {
+    "title": "Deep Learning: Unlocking the Future of Smart Machines",
+    "summary": "Deep Learning is like teaching computers to learn and recognize patterns just like our brains do, but super fast...
+2025-12-25 16:53:53,975 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:53:53,976 - explainer.services - INFO - [EXPLAINER] Explanation generated: 23819 characters
+2025-12-25 16:53:53,977 - explainer.services - INFO - [EXPLAINER] Successfully parsed JSON response
+2025-12-25 16:53:53,977 - explainer.services - INFO - [EXPLAINER] Explanation completed successfully
+2025-12-25 16:53:53,977 - explainer.services - INFO - ================================================================================
+2025-12-25 16:53:53,977 - explainer.routes - INFO - [EXPLAINER ROUTE] Explanation generated successfully
+2025-12-25 16:53:53,977 - explainer.routes - INFO - ================================================================================
+2025-12-25 16:54:22,918 - auth.routes - INFO - ================================================================================
+2025-12-25 16:54:22,918 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:54:22,918 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:54:22,918 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:54:22,918 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:54:22,919 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:54:22,919 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:54:22,919 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:54:22,919 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197750
+2025-12-25 16:54:22,919 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:54:23,140 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:54:23,140 - auth.routes - INFO - ================================================================================
+2025-12-25 16:54:23,141 - explainer.routes - INFO - ================================================================================
+2025-12-25 16:54:23,141 - explainer.routes - INFO - [EXPLAINER CHAT ROUTE] POST /chat endpoint called
+2025-12-25 16:54:23,141 - explainer.routes - INFO - [EXPLAINER CHAT ROUTE] Question: i did not udnerstnad htis topic
+2025-12-25 16:54:23,141 - explainer.routes - INFO - [EXPLAINER CHAT ROUTE] Chat history length: 0 messages
+2025-12-25 16:54:23,141 - explainer.routes - INFO - [EXPLAINER CHAT ROUTE] Explainer content length: 26188 characters
+2025-12-25 16:54:23,232 - explainer.routes - INFO - [EXPLAINER CHAT ROUTE] User profile loaded: learner_type=student, age_group=young_adult
+2025-12-25 16:54:23,233 - explainer.routes - INFO - [EXPLAINER CHAT ROUTE] Processing chat with 0 history messages
+2025-12-25 16:54:23,233 - explainer.services - INFO - [EXPLAINER CHAT] Generating response for question: i did not udnerstnad htis topic
+2025-12-25 16:54:23,233 - explainer.services - INFO - [EXPLAINER CHAT] Chat history length: 0 messages
+2025-12-25 16:54:23,233 - explainer.services - INFO - [EXPLAINER CHAT] Sending request to Gemini AI
+2025-12-25 16:54:23,233 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:54:23,233 - core.gemini_client - INFO - [EXPLAINER_CHAT] Starting Gemini AI generation
+2025-12-25 16:54:23,233 - core.gemini_client - INFO - [EXPLAINER_CHAT] Using API Key #1 of 2
+2025-12-25 16:54:23,233 - core.gemini_client - INFO - [EXPLAINER_CHAT] Prompt length: 8237 characters
+2025-12-25 16:54:23,233 - core.gemini_client - INFO - [EXPLAINER_CHAT] Model: gemini-2.5-flash
+2025-12-25 16:54:23,254 - core.gemini_client - INFO - [EXPLAINER_CHAT] Attempting API call with client.models.generate_content
+2025-12-25 16:54:23,254 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:54:33,792 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:54:33,794 - core.gemini_client - INFO - [EXPLAINER_CHAT] API call successful with Key #1
+2025-12-25 16:54:33,794 - core.gemini_client - INFO - [EXPLAINER_CHAT] Response received: 3974 characters
+2025-12-25 16:54:33,794 - core.gemini_client - INFO - [EXPLAINER_CHAT] Response preview: {
+    "answer": "Hey there! It sounds like the whole topic of Deep Learning felt a bit confusing, and that's totally okay! It's a cutting-edge field, and many people find it tricky at first. Let's bre...
+2025-12-25 16:54:33,794 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:54:33,794 - explainer.services - INFO - [EXPLAINER CHAT] Raw response length: 3974 characters
+2025-12-25 16:54:33,794 - explainer.services - INFO - [EXPLAINER CHAT] Raw response preview: {
+    "answer": "Hey there! It sounds like the whole topic of Deep Learning felt a bit confusing, and that's totally okay! It's a cutting-edge field, and many people find it tricky at first. Let's bre
+2025-12-25 16:54:33,794 - explainer.services - INFO - [EXPLAINER CHAT] Successfully parsed JSON response
+2025-12-25 16:54:33,794 - explainer.services - INFO - [EXPLAINER CHAT] Response generated successfully
+2025-12-25 16:54:33,794 - explainer.routes - INFO - [EXPLAINER CHAT ROUTE] Chat response generated successfully
+2025-12-25 16:54:33,795 - explainer.routes - INFO - [EXPLAINER CHAT ROUTE] Answer length: 3867 characters
+2025-12-25 16:54:33,795 - explainer.routes - INFO - ================================================================================
+2025-12-25 16:54:41,511 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:54:41,511 - quiz.routes - INFO - [QUIZ ROUTE] POST /generate endpoint called
+2025-12-25 16:54:41,511 - quiz.routes - INFO - [QUIZ ROUTE] Parameters received:
+2025-12-25 16:54:41,511 - quiz.routes - INFO - [QUIZ ROUTE]   - num_questions: 5
+2025-12-25 16:54:41,512 - quiz.routes - INFO - [QUIZ ROUTE]   - difficulty: Medium
+2025-12-25 16:54:41,512 - quiz.routes - INFO - [QUIZ ROUTE]   - text provided: No (0 chars)
+2025-12-25 16:54:41,512 - quiz.routes - INFO - [QUIZ ROUTE]   - url provided: Yes (https://www.ibm.com/think/topics/deep-learning)
+2025-12-25 16:54:41,512 - quiz.routes - INFO - [QUIZ ROUTE]   - pdf provided: No (N/A)
+2025-12-25 16:54:41,512 - quiz.routes - INFO - [QUIZ ROUTE] Processing URL source
+2025-12-25 16:54:41,512 - core.url_extractor - INFO - ================================================================================
+2025-12-25 16:54:41,512 - core.url_extractor - INFO - [URL EXTRACT] Starting URL extraction
+2025-12-25 16:54:41,512 - core.url_extractor - INFO - [URL EXTRACT] Target URL: https://www.ibm.com/think/topics/deep-learning
+2025-12-25 16:54:41,512 - core.url_extractor - INFO - [URL EXTRACT] Initializing Tavily API call
+2025-12-25 16:54:41,512 - core.url_extractor - INFO - [URL EXTRACT] Tavily API key configured: Yes
+2025-12-25 16:54:41,512 - core.url_extractor - INFO - [URL EXTRACT] Calling Tavily extract API
+2025-12-25 16:54:53,858 - core.url_extractor - INFO - [URL EXTRACT] Tavily API response received
+2025-12-25 16:54:53,858 - core.url_extractor - INFO - [URL EXTRACT] Response length: 36584 characters
+2025-12-25 16:54:53,858 - core.url_extractor - INFO - [URL EXTRACT] Response type: <class 'dict'>
+2025-12-25 16:54:53,859 - core.url_extractor - WARNING - [URL EXTRACT] No results found in response, using fallback
+2025-12-25 16:54:53,859 - core.url_extractor - INFO - [URL EXTRACT] URL extraction completed successfully
+2025-12-25 16:54:53,859 - core.url_extractor - INFO - ================================================================================
+2025-12-25 16:54:53,859 - quiz.routes - INFO - [QUIZ ROUTE] Content extracted successfully from URL
+2025-12-25 16:54:53,859 - quiz.routes - INFO - [QUIZ ROUTE] Content length: 36584 characters
+2025-12-25 16:54:53,859 - quiz.routes - INFO - [QUIZ ROUTE] Calling quiz generation service
+2025-12-25 16:54:53,859 - quiz.services - INFO - ================================================================================
+2025-12-25 16:54:53,859 - quiz.services - INFO - [QUIZ GENERATE] Starting quiz generation from URL
+2025-12-25 16:54:53,859 - quiz.services - INFO - [QUIZ GENERATE] Number of questions requested: 5
+2025-12-25 16:54:53,859 - quiz.services - INFO - [QUIZ GENERATE] Difficulty level: Medium
+2025-12-25 16:54:53,859 - quiz.services - INFO - [QUIZ GENERATE] Content length: 36584 characters
+2025-12-25 16:54:53,859 - quiz.services - INFO - [QUIZ GENERATE] Content preview: {'results': [{'url': 'https://www.ibm.com/think/topics/deep-learning', 'title': 'What Is Deep Learning? | IBM', 'raw_content': '# What is deep learning?\n\n## What is deep learning?\n\nDeep learning i...
+2025-12-25 16:54:53,859 - core.validators - INFO - [VALIDATION] Content validated: 36584 characters
+2025-12-25 16:54:53,860 - quiz.services - INFO - [QUIZ GENERATE] Content truncated from 36584 to 15000 characters
+2025-12-25 16:54:53,860 - quiz.services - INFO - [QUIZ GENERATE] Building prompt for Gemini AI
+2025-12-25 16:54:53,860 - quiz.services - INFO - [QUIZ GENERATE] Prompt length: 15443 characters
+2025-12-25 16:54:53,860 - quiz.services - INFO - [QUIZ GENERATE] Sending request to Gemini AI
+2025-12-25 16:54:53,860 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:54:53,860 - core.gemini_client - INFO - [QUIZ GENERATE] Starting Gemini AI generation
+2025-12-25 16:54:53,860 - core.gemini_client - INFO - [QUIZ GENERATE] Using API Key #1 of 2
+2025-12-25 16:54:53,860 - core.gemini_client - INFO - [QUIZ GENERATE] Prompt length: 15443 characters
+2025-12-25 16:54:53,860 - core.gemini_client - INFO - [QUIZ GENERATE] Model: gemini-2.5-flash
+2025-12-25 16:54:53,880 - core.gemini_client - INFO - [QUIZ GENERATE] Attempting API call with client.models.generate_content
+2025-12-25 16:54:53,880 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:55:07,192 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:55:07,193 - core.gemini_client - INFO - [QUIZ GENERATE] API call successful with Key #1
+2025-12-25 16:55:07,194 - core.gemini_client - INFO - [QUIZ GENERATE] Response received: 3160 characters
+2025-12-25 16:55:07,194 - core.gemini_client - INFO - [QUIZ GENERATE] Response preview: ```json
+[
+    {
+        "id": 1,
+        "question": "What is the primary characteristic that distinguishes deep learning models from \"non-deep\" neural networks, according to the text?",
+        "op...
+2025-12-25 16:55:07,194 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:55:07,194 - quiz.services - INFO - [QUIZ GENERATE] Response text length: 3160 characters
+2025-12-25 16:55:07,194 - quiz.services - INFO - [QUIZ GENERATE] Response preview: ```json
+[
+    {
+        "id": 1,
+        "question": "What is the primary characteristic that distinguishes deep learning models from \"non-deep\" neural networks, according to the text?",
+        "op...
+2025-12-25 16:55:07,194 - quiz.services - INFO - [QUIZ GENERATE] Parsing JSON response
+2025-12-25 16:55:07,194 - core.gemini_client - INFO - [QUIZ GENERATE] Parsing JSON response
+2025-12-25 16:55:07,194 - core.gemini_client - INFO - [QUIZ GENERATE] Removing ```json markdown wrapper
+2025-12-25 16:55:07,194 - core.gemini_client - INFO - [QUIZ GENERATE] Removing trailing ```
+2025-12-25 16:55:07,194 - core.gemini_client - INFO - [QUIZ GENERATE] JSON parsed successfully
+2025-12-25 16:55:07,194 - quiz.services - INFO - [QUIZ GENERATE] JSON parsed successfully
+2025-12-25 16:55:07,194 - quiz.services - INFO - [QUIZ GENERATE] Number of questions generated: 5
+2025-12-25 16:55:07,194 - quiz.services - INFO - [QUIZ GENERATE] Q1: What is the primary characteristic that distinguishes deep learning models from ... (4 options, correct: The presence of multiple hidden layers in their architecture.)
+2025-12-25 16:55:07,194 - quiz.services - INFO - [QUIZ GENERATE] Q2: Which two essential algorithms were introduced to overcome the challenge of effi... (4 options, correct: Backpropagation and gradient descent.)
+2025-12-25 16:55:07,194 - quiz.services - INFO - [QUIZ GENERATE] Q3: What role do *weights* and *biases* play in a deep neural network during the tra... (4 options, correct: They are model parameters that are adjusted to optimize the network's accuracy.)
+2025-12-25 16:55:07,194 - quiz.services - INFO - [QUIZ GENERATE] Q4: What technological advancement was a key enabler for the breakthrough of deep le... (4 options, correct: Advancements in high-performance Graphic Processing Units (GPUs).)
+2025-12-25 16:55:07,194 - quiz.services - INFO - [QUIZ GENERATE] Q5: Why are deep learning models often referred to as "black boxes"?... (4 options, correct: Because it is often difficult to intuitively explain how their internal parameters reflect real-world data characteristics.)
+2025-12-25 16:55:07,194 - quiz.services - INFO - [QUIZ GENERATE] Quiz generation completed successfully
+2025-12-25 16:55:07,194 - quiz.services - INFO - ================================================================================
+2025-12-25 16:55:07,194 - quiz.routes - INFO - [QUIZ ROUTE] Quiz generated successfully
+2025-12-25 16:55:07,194 - quiz.routes - INFO - [QUIZ ROUTE] Returning 5 questions
+2025-12-25 16:55:07,194 - quiz.routes - INFO - [QUIZ ROUTE] Also returning extracted content for analysis (length: 36584 chars)
+2025-12-25 16:55:07,194 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:55:15,771 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:15,771 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:55:15,771 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:55:15,771 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:55:15,771 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:55:15,771 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:55:15,771 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:55:15,771 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:55:15,772 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197750
+2025-12-25 16:55:15,772 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:55:15,787 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:55:15,787 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:15,788 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:55:15,788 - quiz.routes - INFO - [SAVE QUIZ ROUTE] POST /save endpoint called
+2025-12-25 16:55:15,788 - quiz.routes - INFO - [SAVE QUIZ ROUTE] User: kavish17shah@gmail.com (user_id: 3)
+2025-12-25 16:55:15,788 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Quiz data received:
+2025-12-25 16:55:15,788 - quiz.routes - INFO - [SAVE QUIZ ROUTE]   - Total questions: 5
+2025-12-25 16:55:15,788 - quiz.routes - INFO - [SAVE QUIZ ROUTE]   - Score: 1
+2025-12-25 16:55:15,788 - quiz.routes - INFO - [SAVE QUIZ ROUTE]   - Difficulty: Medium
+2025-12-25 16:55:15,788 - quiz.routes - INFO - [SAVE QUIZ ROUTE]   - Content source: url
+2025-12-25 16:55:15,788 - quiz.routes - INFO - [SAVE QUIZ ROUTE]   - Has analysis: No
+2025-12-25 16:55:15,810 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Generated quiz_id: 1
+2025-12-25 16:55:15,810 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Quiz document prepared
+2025-12-25 16:55:15,810 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Inserting quiz into MongoDB collection 'quizzes'
+2025-12-25 16:55:15,887 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Quiz inserted successfully with _id: 694d1f1b1fc3ed0dc4bbaa2c
+2025-12-25 16:55:15,887 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Quiz saved successfully
+2025-12-25 16:55:15,887 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:55:28,600 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:28,600 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:55:28,600 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:55:28,600 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:55:28,600 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:55:28,601 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:55:28,601 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:55:28,601 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:55:28,601 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197750
+2025-12-25 16:55:28,601 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:55:28,610 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:55:28,610 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:28,611 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:28,611 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:55:28,611 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:55:28,611 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:28,615 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:28,615 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:55:28,615 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:55:28,615 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:55:28,615 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:55:28,615 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:55:28,615 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:55:28,615 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:55:28,615 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197750
+2025-12-25 16:55:28,615 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:55:28,625 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:55:28,626 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:28,626 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:28,626 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:55:28,626 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:55:28,626 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:40,435 - presentation.routes - INFO - ================================================================================
+2025-12-25 16:55:40,435 - presentation.routes - INFO - [PRESENTATION API] Received outline request
+2025-12-25 16:55:40,435 - presentation.routes - INFO - [PRESENTATION API] Topic: a in education
+2025-12-25 16:55:40,435 - presentation.routes - INFO - [PRESENTATION API] Num Slides: 5
+2025-12-25 16:55:40,435 - presentation.routes - INFO - [PRESENTATION API] Language: en-US
+2025-12-25 16:55:40,435 - presentation.services - INFO - ================================================================================
+2025-12-25 16:55:40,435 - presentation.services - INFO - [PRESENTATION OUTLINE] Starting outline generation
+2025-12-25 16:55:40,435 - presentation.services - INFO - [PRESENTATION OUTLINE] Topic: a in education
+2025-12-25 16:55:40,435 - presentation.services - INFO - [PRESENTATION OUTLINE] Number of slides: 5
+2025-12-25 16:55:40,435 - presentation.services - INFO - [PRESENTATION OUTLINE] Language: en-US
+2025-12-25 16:55:40,435 - presentation.services - INFO - [PRESENTATION OUTLINE] Prompt length: 1345 characters
+2025-12-25 16:55:40,435 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:55:40,435 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Starting Gemini AI generation
+2025-12-25 16:55:40,435 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Using API Key #1 of 2
+2025-12-25 16:55:40,435 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Prompt length: 1345 characters
+2025-12-25 16:55:40,435 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Model: gemini-2.5-flash
+2025-12-25 16:55:40,456 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Attempting API call with client.models.generate_content
+2025-12-25 16:55:40,457 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:55:47,993 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:55:47,994 - core.gemini_client - INFO - [PRESENTATION OUTLINE] API call successful with Key #1
+2025-12-25 16:55:47,994 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Response received: 1774 characters
+2025-12-25 16:55:47,994 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Response preview: <TITLE>The Dawn of AI: Reshaping the Educational Landscape</TITLE>
+
+# Understanding Artificial Intelligence in Education
+- Explore the fundamental concepts of AI and its relevance within learning envi...
+2025-12-25 16:55:47,994 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:55:47,994 - presentation.services - INFO - [PRESENTATION OUTLINE] Response length: 1774 characters
+2025-12-25 16:55:47,994 - presentation.services - INFO - [PRESENTATION OUTLINE] Parsing outline response
+2025-12-25 16:55:47,995 - presentation.services - INFO - [PRESENTATION OUTLINE] Extracted title: The Dawn of AI: Reshaping the Educational Landscape
+2025-12-25 16:55:47,995 - presentation.services - INFO - [PRESENTATION OUTLINE] Extracted 5 outline items
+2025-12-25 16:55:47,995 - presentation.services - INFO - [PRESENTATION OUTLINE] Outline generation completed successfully
+2025-12-25 16:55:47,995 - presentation.services - INFO - ================================================================================
+2025-12-25 16:55:47,995 - presentation.routes - INFO - [PRESENTATION API] Successfully generated outline
+2025-12-25 16:55:47,995 - presentation.routes - INFO - ================================================================================
+2025-12-25 16:55:47,998 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:47,998 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:55:47,998 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:55:47,998 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:55:47,998 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:55:47,998 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:55:47,999 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:55:47,999 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:55:47,999 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197750
+2025-12-25 16:55:47,999 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:55:48,029 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:55:48,029 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:48,030 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:48,030 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:55:48,030 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:55:48,030 - auth.routes - INFO - ================================================================================
+2025-12-25 16:55:52,518 - presentation.routes - INFO - ================================================================================
+2025-12-25 16:55:52,519 - presentation.routes - INFO - [PRESENTATION API] Received outline request
+2025-12-25 16:55:52,519 - presentation.routes - INFO - [PRESENTATION API] Topic: AI IN EDUCATION
+2025-12-25 16:55:52,519 - presentation.routes - INFO - [PRESENTATION API] Num Slides: 5
+2025-12-25 16:55:52,519 - presentation.routes - INFO - [PRESENTATION API] Language: en-US
+2025-12-25 16:55:52,519 - presentation.services - INFO - ================================================================================
+2025-12-25 16:55:52,519 - presentation.services - INFO - [PRESENTATION OUTLINE] Starting outline generation
+2025-12-25 16:55:52,519 - presentation.services - INFO - [PRESENTATION OUTLINE] Topic: AI IN EDUCATION
+2025-12-25 16:55:52,519 - presentation.services - INFO - [PRESENTATION OUTLINE] Number of slides: 5
+2025-12-25 16:55:52,519 - presentation.services - INFO - [PRESENTATION OUTLINE] Language: en-US
+2025-12-25 16:55:52,519 - presentation.services - INFO - [PRESENTATION OUTLINE] Prompt length: 1346 characters
+2025-12-25 16:55:52,519 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:55:52,519 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Starting Gemini AI generation
+2025-12-25 16:55:52,519 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Using API Key #1 of 2
+2025-12-25 16:55:52,519 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Prompt length: 1346 characters
+2025-12-25 16:55:52,519 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Model: gemini-2.5-flash
+2025-12-25 16:55:52,539 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Attempting API call with client.models.generate_content
+2025-12-25 16:55:52,540 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:55:59,762 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:55:59,764 - core.gemini_client - INFO - [PRESENTATION OUTLINE] API call successful with Key #1
+2025-12-25 16:55:59,764 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Response received: 1818 characters
+2025-12-25 16:55:59,764 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Response preview: <TITLE>AI in Education: Shaping the Future of Learning and Teaching</TITLE>
+
+# The Dawn of AI in Education
+- Artificial Intelligence is rapidly transforming various sectors, including education.
+- Und...
+2025-12-25 16:55:59,764 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:55:59,765 - presentation.services - INFO - [PRESENTATION OUTLINE] Response length: 1818 characters
+2025-12-25 16:55:59,765 - presentation.services - INFO - [PRESENTATION OUTLINE] Parsing outline response
+2025-12-25 16:55:59,765 - presentation.services - INFO - [PRESENTATION OUTLINE] Extracted title: AI in Education: Shaping the Future of Learning and Teaching
+2025-12-25 16:55:59,765 - presentation.services - INFO - [PRESENTATION OUTLINE] Extracted 5 outline items
+2025-12-25 16:55:59,765 - presentation.services - INFO - [PRESENTATION OUTLINE] Outline generation completed successfully
+2025-12-25 16:55:59,765 - presentation.services - INFO - ================================================================================
+2025-12-25 16:55:59,765 - presentation.routes - INFO - [PRESENTATION API] Successfully generated outline
+2025-12-25 16:55:59,765 - presentation.routes - INFO - ================================================================================
+2025-12-25 16:56:19,889 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:19,889 - auth.routes - INFO - [CLERK_CALLBACK START] Email: kavish17shah@gmail.com
+2025-12-25 16:56:19,890 - auth.routes - INFO - [CLERK_CALLBACK] Full name: Kavish Shah
+2025-12-25 16:56:19,890 - auth.routes - INFO - [CLERK_CALLBACK] Checking if email already exists: kavish17shah@gmail.com
+2025-12-25 16:56:19,908 - auth.routes - INFO - [CLERK_CALLBACK] User exists (OAuth user), generating token: kavish17shah@gmail.com
+2025-12-25 16:56:19,909 - auth.routes - INFO - [CLERK_CALLBACK SUCCESS] User kavish17shah@gmail.com logged in via Google
+2025-12-25 16:56:19,909 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:19,992 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:19,993 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:56:19,993 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:56:19,993 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:56:19,993 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:56:19,993 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:56:19,993 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:56:19,993 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:56:19,993 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197979
+2025-12-25 16:56:19,993 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:56:20,017 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:56:20,017 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:20,018 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:20,018 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:56:20,018 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:56:20,018 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:20,295 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:20,295 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:56:20,295 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:56:20,295 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:56:20,295 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:56:20,295 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:56:20,295 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:56:20,295 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:56:20,296 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197979
+2025-12-25 16:56:20,296 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:56:20,315 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:56:20,315 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:20,315 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:20,316 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:56:20,316 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:56:20,316 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:25,418 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:25,418 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:56:25,418 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:56:25,418 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:56:25,418 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:56:25,419 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:56:25,419 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:56:25,419 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:56:25,419 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197979
+2025-12-25 16:56:25,419 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:56:25,432 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:56:25,432 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:25,432 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:56:25,432 - quiz.routes - INFO - [QUIZ HISTORY ROUTE] GET /history endpoint called
+2025-12-25 16:56:25,433 - quiz.routes - INFO - [QUIZ HISTORY ROUTE] User: kavish17shah@gmail.com (user_id: 3)
+2025-12-25 16:56:25,433 - quiz.routes - INFO - [QUIZ HISTORY ROUTE] Querying quizzes for user_id: 3
+2025-12-25 16:56:25,441 - quiz.routes - INFO - [QUIZ HISTORY ROUTE] Found 1 quizzes for user
+2025-12-25 16:56:25,441 - quiz.routes - INFO - [QUIZ HISTORY ROUTE] Returning 1 quizzes
+2025-12-25 16:56:25,441 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:56:36,247 - flashcards.routes - INFO - ================================================================================
+2025-12-25 16:56:36,248 - flashcards.routes - INFO - [FLASHCARD ROUTE] POST /generate endpoint called
+2025-12-25 16:56:36,248 - flashcards.routes - INFO - [FLASHCARD ROUTE] Parameters received:
+2025-12-25 16:56:36,248 - flashcards.routes - INFO - [FLASHCARD ROUTE]   - num_cards: 10
+2025-12-25 16:56:36,248 - flashcards.routes - INFO - [FLASHCARD ROUTE]   - words_per_card: 35
+2025-12-25 16:56:36,248 - flashcards.routes - INFO - [FLASHCARD ROUTE]   - text provided: No (0 chars)
+2025-12-25 16:56:36,248 - flashcards.routes - INFO - [FLASHCARD ROUTE]   - url provided: Yes (https://www.ibm.com/think/topics/deep-learning)
+2025-12-25 16:56:36,248 - flashcards.routes - INFO - [FLASHCARD ROUTE]   - pdf provided: No (N/A)
+2025-12-25 16:56:36,248 - flashcards.routes - INFO - [FLASHCARD ROUTE] Processing URL source
+2025-12-25 16:56:36,248 - core.url_extractor - INFO - ================================================================================
+2025-12-25 16:56:36,248 - core.url_extractor - INFO - [URL EXTRACT] Starting URL extraction
+2025-12-25 16:56:36,248 - core.url_extractor - INFO - [URL EXTRACT] Target URL: https://www.ibm.com/think/topics/deep-learning
+2025-12-25 16:56:36,248 - core.url_extractor - INFO - [URL EXTRACT] Initializing Tavily API call
+2025-12-25 16:56:36,248 - core.url_extractor - INFO - [URL EXTRACT] Tavily API key configured: Yes
+2025-12-25 16:56:36,248 - core.url_extractor - INFO - [URL EXTRACT] Calling Tavily extract API
+2025-12-25 16:56:37,143 - core.url_extractor - INFO - [URL EXTRACT] Tavily API response received
+2025-12-25 16:56:37,143 - core.url_extractor - INFO - [URL EXTRACT] Response length: 36584 characters
+2025-12-25 16:56:37,143 - core.url_extractor - INFO - [URL EXTRACT] Response type: <class 'dict'>
+2025-12-25 16:56:37,143 - core.url_extractor - WARNING - [URL EXTRACT] No results found in response, using fallback
+2025-12-25 16:56:37,143 - core.url_extractor - INFO - [URL EXTRACT] URL extraction completed successfully
+2025-12-25 16:56:37,143 - core.url_extractor - INFO - ================================================================================
+2025-12-25 16:56:37,143 - flashcards.routes - INFO - [FLASHCARD ROUTE] Content extracted successfully from URL
+2025-12-25 16:56:37,144 - flashcards.routes - INFO - [FLASHCARD ROUTE] Content length: 36584 characters
+2025-12-25 16:56:37,144 - flashcards.routes - INFO - [FLASHCARD ROUTE] Calling flashcard generation service
+2025-12-25 16:56:37,144 - flashcards.services - INFO - ================================================================================
+2025-12-25 16:56:37,144 - flashcards.services - INFO - [FLASHCARD] Starting flashcard generation
+2025-12-25 16:56:37,144 - flashcards.services - INFO - [FLASHCARD] Source type: URL
+2025-12-25 16:56:37,144 - flashcards.services - INFO - [FLASHCARD] Number of cards: 10
+2025-12-25 16:56:37,144 - flashcards.services - INFO - [FLASHCARD] Words per card: 35
+2025-12-25 16:56:37,144 - flashcards.services - INFO - [FLASHCARD] Content length: 36584 characters
+2025-12-25 16:56:37,144 - core.validators - INFO - [VALIDATION] Content validated: 36584 characters
+2025-12-25 16:56:37,144 - flashcards.services - INFO - [FLASHCARD] Building prompt for Gemini AI
+2025-12-25 16:56:37,144 - flashcards.services - INFO - [FLASHCARD] Prompt length: 16293 characters
+2025-12-25 16:56:37,144 - flashcards.services - INFO - [FLASHCARD] Sending request to Gemini AI
+2025-12-25 16:56:37,144 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:56:37,144 - core.gemini_client - INFO - [FLASHCARD] Starting Gemini AI generation
+2025-12-25 16:56:37,144 - core.gemini_client - INFO - [FLASHCARD] Using API Key #1 of 2
+2025-12-25 16:56:37,144 - core.gemini_client - INFO - [FLASHCARD] Prompt length: 16293 characters
+2025-12-25 16:56:37,144 - core.gemini_client - INFO - [FLASHCARD] Model: gemini-2.5-flash
+2025-12-25 16:56:37,164 - core.gemini_client - INFO - [FLASHCARD] Attempting API call with client.models.generate_content
+2025-12-25 16:56:37,164 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:56:48,914 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:56:48,916 - core.gemini_client - INFO - [FLASHCARD] API call successful with Key #1
+2025-12-25 16:56:48,916 - core.gemini_client - INFO - [FLASHCARD] Response received: 2136 characters
+2025-12-25 16:56:48,916 - core.gemini_client - INFO - [FLASHCARD] Response preview: ```json
+[
+  {
+    "id": 1,
+    "front": "What is deep learning?",
+    "back": "• Subset of machine learning. • Driven by multilayered neural networks. • Inspired by human brain structure.",
+    "diffi...
+2025-12-25 16:56:48,916 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:56:48,916 - flashcards.services - INFO - [FLASHCARD] Response text length: 2136 characters
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Response preview: ```json
+[
+  {
+    "id": 1,
+    "front": "What is deep learning?",
+    "back": "• Subset of machine learning. • Driven by multilayered neural networks. • Inspired by human brain structure.",
+    "diffi...
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Parsing JSON response
+2025-12-25 16:56:48,917 - core.gemini_client - INFO - [FLASHCARD] Parsing JSON response
+2025-12-25 16:56:48,917 - core.gemini_client - INFO - [FLASHCARD] Removing ```json markdown wrapper
+2025-12-25 16:56:48,917 - core.gemini_client - INFO - [FLASHCARD] Removing trailing ```
+2025-12-25 16:56:48,917 - core.gemini_client - INFO - [FLASHCARD] JSON parsed successfully
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] JSON parsed successfully
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Number of flashcards generated: 10
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 1: ✓ Valid - Front: 4w, Back: 17w, Difficulty: easy
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 1 Front: What is deep learning?...
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 2: ✓ Valid - Front: 7w, Back: 11w, Difficulty: easy
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 2 Front: What do deep learning models power today?...
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 3: ✓ Valid - Front: 10w, Back: 9w, Difficulty: easy
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 3 Front: What defines "deep learning" in terms of neural network laye...
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 4: ✓ Valid - Front: 8w, Back: 9w, Difficulty: medium
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 4 Front: What theoretical property do deep neural networks possess?...
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 5: ✓ Valid - Front: 3w, Back: 13w, Difficulty: medium
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 5 Front: Define self-supervised learning....
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 6: ✓ Valid - Front: 9w, Back: 9w, Difficulty: easy
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 6 Front: What advancement enabled the breakthrough of deep learning n...
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 7: ✓ Valid - Front: 15w, Back: 8w, Difficulty: easy
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 7 Front: What is the primary function of an artificial "neuron" or "n...
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 8: ✓ Valid - Front: 7w, Back: 15w, Difficulty: medium
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 8 Front: What are "model parameters" in deep learning?...
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 9: ✓ Valid - Front: 9w, Back: 5w, Difficulty: easy
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 9 Front: Name two essential algorithms for training deep neural netwo...
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 10: ✓ Valid - Front: 2w, Back: 15w, Difficulty: medium
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Card 10 Front: Define Backpropagation....
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Valid flashcards: 10/10
+2025-12-25 16:56:48,917 - flashcards.services - INFO - [FLASHCARD] Flashcard generation completed successfully
+2025-12-25 16:56:48,917 - flashcards.services - INFO - ================================================================================
+2025-12-25 16:56:48,917 - flashcards.routes - INFO - [FLASHCARD ROUTE] Flashcards generated successfully
+2025-12-25 16:56:48,917 - flashcards.routes - INFO - [FLASHCARD ROUTE] Returning 10 flashcards
+2025-12-25 16:56:48,917 - flashcards.routes - INFO - [FLASHCARD ROUTE] Also returning extracted content (length: 36584 chars)
+2025-12-25 16:56:48,917 - flashcards.routes - INFO - ================================================================================
+2025-12-25 16:56:52,143 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:52,143 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:56:52,143 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:56:52,143 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:56:52,143 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:56:52,143 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:56:52,143 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:56:52,144 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:56:52,144 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197979
+2025-12-25 16:56:52,144 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:56:52,162 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:56:52,163 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:52,163 - flashcards.routes - INFO - ================================================================================
+2025-12-25 16:56:52,163 - flashcards.routes - INFO - [SAVE FLASHCARD ROUTE] POST /save endpoint called
+2025-12-25 16:56:52,163 - flashcards.routes - INFO - [SAVE FLASHCARD ROUTE] User: kavish17shah@gmail.com (user_id: 3)
+2025-12-25 16:56:52,163 - flashcards.routes - INFO - [SAVE FLASHCARD ROUTE] Flashcard data received:
+2025-12-25 16:56:52,163 - flashcards.routes - INFO - [SAVE FLASHCARD ROUTE]   - Total cards: 10
+2025-12-25 16:56:52,163 - flashcards.routes - INFO - [SAVE FLASHCARD ROUTE]   - Words per card: 35
+2025-12-25 16:56:52,163 - flashcards.routes - INFO - [SAVE FLASHCARD ROUTE]   - Content source: url
+2025-12-25 16:56:52,188 - flashcards.routes - INFO - [SAVE FLASHCARD ROUTE] Generated flashcard_id: 1
+2025-12-25 16:56:52,188 - flashcards.routes - INFO - [SAVE FLASHCARD ROUTE] Flashcard document prepared
+2025-12-25 16:56:52,188 - flashcards.routes - INFO - [SAVE FLASHCARD ROUTE] Inserting flashcard set into MongoDB collection 'flashcards'
+2025-12-25 16:56:52,255 - flashcards.routes - INFO - [SAVE FLASHCARD ROUTE] Flashcard set inserted successfully with _id: 694d1f7c1fc3ed0dc4bbaa2d
+2025-12-25 16:56:52,256 - flashcards.routes - INFO - [SAVE FLASHCARD ROUTE] Flashcard set saved successfully
+2025-12-25 16:56:52,256 - flashcards.routes - INFO - ================================================================================
+2025-12-25 16:56:53,699 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:53,699 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:56:53,699 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:56:53,699 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:56:53,699 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:56:53,700 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:56:53,700 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:56:53,700 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:56:53,700 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197979
+2025-12-25 16:56:53,700 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:56:53,709 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:56:53,709 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:53,709 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:53,709 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:56:53,709 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:56:53,710 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:53,713 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:53,713 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:56:53,713 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:56:53,713 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:56:53,713 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:56:53,713 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:56:53,713 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:56:53,714 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:56:53,714 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197979
+2025-12-25 16:56:53,714 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:56:53,734 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:56:53,734 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:53,735 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:53,735 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:56:53,735 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:56:53,735 - auth.routes - INFO - ================================================================================
+2025-12-25 16:56:58,237 - presentation.routes - INFO - ================================================================================
+2025-12-25 16:56:58,237 - presentation.routes - INFO - [PRESENTATION API] Received outline request
+2025-12-25 16:56:58,237 - presentation.routes - INFO - [PRESENTATION API] Topic: AI IN EDUCATION
+2025-12-25 16:56:58,237 - presentation.routes - INFO - [PRESENTATION API] Num Slides: 5
+2025-12-25 16:56:58,237 - presentation.routes - INFO - [PRESENTATION API] Language: en-US
+2025-12-25 16:56:58,237 - presentation.services - INFO - ================================================================================
+2025-12-25 16:56:58,237 - presentation.services - INFO - [PRESENTATION OUTLINE] Starting outline generation
+2025-12-25 16:56:58,237 - presentation.services - INFO - [PRESENTATION OUTLINE] Topic: AI IN EDUCATION
+2025-12-25 16:56:58,237 - presentation.services - INFO - [PRESENTATION OUTLINE] Number of slides: 5
+2025-12-25 16:56:58,237 - presentation.services - INFO - [PRESENTATION OUTLINE] Language: en-US
+2025-12-25 16:56:58,237 - presentation.services - INFO - [PRESENTATION OUTLINE] Prompt length: 1346 characters
+2025-12-25 16:56:58,237 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:56:58,237 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Starting Gemini AI generation
+2025-12-25 16:56:58,237 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Using API Key #1 of 2
+2025-12-25 16:56:58,238 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Prompt length: 1346 characters
+2025-12-25 16:56:58,238 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Model: gemini-2.5-flash
+2025-12-25 16:56:58,256 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Attempting API call with client.models.generate_content
+2025-12-25 16:56:58,257 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:57:06,642 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:57:06,643 - core.gemini_client - INFO - [PRESENTATION OUTLINE] API call successful with Key #1
+2025-12-25 16:57:06,644 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Response received: 1604 characters
+2025-12-25 16:57:06,644 - core.gemini_client - INFO - [PRESENTATION OUTLINE] Response preview: <TITLE>AI in Education: Shaping the Future of Learning</TITLE>
+
+# Understanding AI in the Educational Landscape
+- Define artificial intelligence and its core components relevant to education.
+- Explai...
+2025-12-25 16:57:06,644 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:57:06,644 - presentation.services - INFO - [PRESENTATION OUTLINE] Response length: 1604 characters
+2025-12-25 16:57:06,644 - presentation.services - INFO - [PRESENTATION OUTLINE] Parsing outline response
+2025-12-25 16:57:06,644 - presentation.services - INFO - [PRESENTATION OUTLINE] Extracted title: AI in Education: Shaping the Future of Learning
+2025-12-25 16:57:06,644 - presentation.services - INFO - [PRESENTATION OUTLINE] Extracted 5 outline items
+2025-12-25 16:57:06,644 - presentation.services - INFO - [PRESENTATION OUTLINE] Outline generation completed successfully
+2025-12-25 16:57:06,644 - presentation.services - INFO - ================================================================================
+2025-12-25 16:57:06,644 - presentation.routes - INFO - [PRESENTATION API] Successfully generated outline
+2025-12-25 16:57:06,644 - presentation.routes - INFO - ================================================================================
+2025-12-25 16:57:12,147 - auth.routes - INFO - ================================================================================
+2025-12-25 16:57:12,147 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:57:12,147 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:57:12,147 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:57:12,147 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:57:12,148 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:57:12,148 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:57:12,148 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:57:12,148 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197979
+2025-12-25 16:57:12,148 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:57:12,276 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:57:12,276 - auth.routes - INFO - ================================================================================
+2025-12-25 16:57:12,277 - presentation.routes - INFO - ================================================================================
+2025-12-25 16:57:12,277 - presentation.routes - INFO - [PRESENTATION API] Received presentation generation request
+2025-12-25 16:57:12,277 - presentation.routes - INFO - [PRESENTATION API] User: kavish17shah@gmail.com (user_id: 3)
+2025-12-25 16:57:12,277 - presentation.routes - INFO - [PRESENTATION API] Title: AI in Education: Shaping the Future of Learning
+2025-12-25 16:57:12,277 - presentation.routes - INFO - [PRESENTATION API] Outline items: 5
+2025-12-25 16:57:12,277 - presentation.routes - INFO - [PRESENTATION API] Language: en-US
+2025-12-25 16:57:12,277 - presentation.routes - INFO - [PRESENTATION API] Tone: professional
+2025-12-25 16:57:12,277 - presentation.routes - INFO - [PRESENTATION API] Theme: dark
+2025-12-25 16:57:12,277 - presentation.services - INFO - ================================================================================
+2025-12-25 16:57:12,277 - presentation.services - INFO - [PRESENTATION GENERATE] Starting presentation generation
+2025-12-25 16:57:12,277 - presentation.services - INFO - [PRESENTATION GENERATE] Title: AI in Education: Shaping the Future of Learning
+2025-12-25 16:57:12,277 - presentation.services - INFO - [PRESENTATION GENERATE] Number of outline items: 5
+2025-12-25 16:57:12,277 - presentation.services - INFO - [PRESENTATION GENERATE] Language: en-US
+2025-12-25 16:57:12,277 - presentation.services - INFO - [PRESENTATION GENERATE] Tone: professional
+2025-12-25 16:57:12,277 - presentation.services - INFO - [PRESENTATION GENERATE] Theme: dark
+2025-12-25 16:57:12,277 - presentation.services - INFO - [PRESENTATION GENERATE] Prompt length: 3269 characters
+2025-12-25 16:57:12,277 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:57:12,277 - core.gemini_client - INFO - [PRESENTATION GENERATE] Starting Gemini AI generation
+2025-12-25 16:57:12,277 - core.gemini_client - INFO - [PRESENTATION GENERATE] Using API Key #1 of 2
+2025-12-25 16:57:12,278 - core.gemini_client - INFO - [PRESENTATION GENERATE] Prompt length: 3269 characters
+2025-12-25 16:57:12,278 - core.gemini_client - INFO - [PRESENTATION GENERATE] Model: gemini-2.5-flash
+2025-12-25 16:57:12,296 - core.gemini_client - INFO - [PRESENTATION GENERATE] Attempting API call with client.models.generate_content
+2025-12-25 16:57:12,296 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:57:44,338 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:57:44,340 - core.gemini_client - INFO - [PRESENTATION GENERATE] API call successful with Key #1
+2025-12-25 16:57:44,341 - core.gemini_client - INFO - [PRESENTATION GENERATE] Response received: 14612 characters
+2025-12-25 16:57:44,341 - core.gemini_client - INFO - [PRESENTATION GENERATE] Response preview: [
+  {
+    "layout": "bullets",
+    "section_layout": "vertical",
+    "content": {
+      "heading": "AI in Education: Shaping the Future of Learning",
+      "items": [
+        {"text": "Understanding t...
+2025-12-25 16:57:44,341 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:57:44,341 - presentation.services - INFO - [PRESENTATION GENERATE] Response length: 14612 characters
+2025-12-25 16:57:44,341 - core.gemini_client - INFO - [PRESENTATION GENERATE] Parsing JSON response
+2025-12-25 16:57:44,341 - core.gemini_client - INFO - [PRESENTATION GENERATE] JSON parsed successfully
+2025-12-25 16:57:44,341 - presentation.services - INFO - [PRESENTATION GENERATE] Number of slides generated: 16
+2025-12-25 16:57:44,341 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 1: Layout=bullets, Position=vertical
+2025-12-25 16:57:44,341 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 2: Layout=boxes, Position=vertical
+2025-12-25 16:57:44,341 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 3: Layout=arrows, Position=right
+2025-12-25 16:57:44,341 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 4: Layout=compare, Position=vertical
+2025-12-25 16:57:44,341 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 5: Layout=icons, Position=left
+2025-12-25 16:57:44,341 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 6: Layout=staircase, Position=right
+2025-12-25 16:57:44,341 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 7: Layout=columns, Position=vertical
+2025-12-25 16:57:44,341 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 8: Layout=cycle, Position=left
+2025-12-25 16:57:44,342 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 9: Layout=bullets, Position=right
+2025-12-25 16:57:44,342 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 10: Layout=icons, Position=left
+2025-12-25 16:57:44,342 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 11: Layout=boxes, Position=vertical
+2025-12-25 16:57:44,342 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 12: Layout=arrows, Position=right
+2025-12-25 16:57:44,342 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 13: Layout=compare, Position=vertical
+2025-12-25 16:57:44,342 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 14: Layout=icons, Position=left
+2025-12-25 16:57:44,342 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 15: Layout=bullets, Position=right
+2025-12-25 16:57:44,342 - presentation.services - INFO - [PRESENTATION GENERATE] Slide 16: Layout=staircase, Position=left
+2025-12-25 16:57:44,342 - presentation.services - INFO - [PRESENTATION GENERATE] Presentation generation completed successfully
+2025-12-25 16:57:44,342 - presentation.services - INFO - ================================================================================
+2025-12-25 16:57:44,380 - presentation.routes - INFO - [PRESENTATION API] Generated ppt_id: 1
+2025-12-25 16:57:44,431 - presentation.routes - INFO - [PRESENTATION API] Saved to MongoDB with _id: 694d1fb01fc3ed0dc4bbaa2e
+2025-12-25 16:57:44,431 - presentation.routes - INFO - [PRESENTATION API] Successfully generated presentation
+2025-12-25 16:57:44,431 - presentation.routes - INFO - ================================================================================
+2025-12-25 16:57:50,575 - auth.routes - INFO - ================================================================================
+2025-12-25 16:57:50,576 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:57:50,576 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:57:50,576 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:57:50,576 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:57:50,576 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:57:50,576 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:57:50,576 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:57:50,576 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197979
+2025-12-25 16:57:50,576 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:57:50,699 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:57:50,699 - auth.routes - INFO - ================================================================================
+2025-12-25 16:57:50,699 - workflow.routes - INFO - User 3 generating workflow
+2025-12-25 16:57:50,699 - core.url_extractor - INFO - ================================================================================
+2025-12-25 16:57:50,699 - core.url_extractor - INFO - [URL EXTRACT] Starting URL extraction
+2025-12-25 16:57:50,699 - core.url_extractor - INFO - [URL EXTRACT] Target URL: https://www.ibm.com/think/topics/deep-learning
+2025-12-25 16:57:50,700 - core.url_extractor - INFO - [URL EXTRACT] Initializing Tavily API call
+2025-12-25 16:57:50,700 - core.url_extractor - INFO - [URL EXTRACT] Tavily API key configured: Yes
+2025-12-25 16:57:50,700 - core.url_extractor - INFO - [URL EXTRACT] Calling Tavily extract API
+2025-12-25 16:57:52,046 - core.url_extractor - INFO - [URL EXTRACT] Tavily API response received
+2025-12-25 16:57:52,046 - core.url_extractor - INFO - [URL EXTRACT] Response length: 36584 characters
+2025-12-25 16:57:52,046 - core.url_extractor - INFO - [URL EXTRACT] Response type: <class 'dict'>
+2025-12-25 16:57:52,046 - core.url_extractor - WARNING - [URL EXTRACT] No results found in response, using fallback
+2025-12-25 16:57:52,046 - core.url_extractor - INFO - [URL EXTRACT] URL extraction completed successfully
+2025-12-25 16:57:52,046 - core.url_extractor - INFO - ================================================================================
+2025-12-25 16:57:52,046 - workflow.routes - INFO - Extracted content from URL: https://www.ibm.com/think/topics/deep-learning
+2025-12-25 16:57:52,046 - workflow.services - INFO - Generating workflow from content (length: 36584)
+2025-12-25 16:57:52,046 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:57:52,046 - core.gemini_client - INFO - [GEMINI] Starting Gemini AI generation
+2025-12-25 16:57:52,047 - core.gemini_client - INFO - [GEMINI] Using API Key #1 of 2
+2025-12-25 16:57:52,047 - core.gemini_client - INFO - [GEMINI] Prompt length: 38035 characters
+2025-12-25 16:57:52,047 - core.gemini_client - INFO - [GEMINI] Model: gemini-2.5-flash
+2025-12-25 16:57:52,066 - core.gemini_client - INFO - [GEMINI] Attempting API call with client.models.generate_content
+2025-12-25 16:57:52,066 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 16:58:08,369 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 16:58:08,371 - core.gemini_client - INFO - [GEMINI] API call successful with Key #1
+2025-12-25 16:58:08,372 - core.gemini_client - INFO - [GEMINI] Response received: 283 characters
+2025-12-25 16:58:08,372 - core.gemini_client - INFO - [GEMINI] Response preview: flowchart TD
+    A[Start DL Project] --> B[Design Network & Data]
+    B --> C{{Requires Labeled Data?}}
+    C -->|Yes| D[Perform Supervised Training]
+    C -->|No| E[Perform Unsupervised Training]
+   ...
+2025-12-25 16:58:08,372 - core.gemini_client - INFO - ================================================================================
+2025-12-25 16:58:08,372 - workflow.services - INFO - Raw Gemini output received: flowchart TD
+    A[Start DL Project] --> B[Design Network & Data]
+    B --> C{{Requires Labeled Data?}}
+    C -->|Yes| D[Perform Supervised Training]
+    C -->|No| E[Perform Unsupervised Training]
+   ...
+2025-12-25 16:58:08,373 - workflow.services - INFO - Successfully generated workflow
+2025-12-25 16:58:10,752 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:10,752 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:58:10,752 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:58:10,752 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:58:10,752 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:58:10,753 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:58:10,753 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:58:10,753 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:58:10,753 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197979
+2025-12-25 16:58:10,753 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:58:10,776 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:58:10,776 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:10,777 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:10,777 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:58:10,777 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:58:10,777 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:10,782 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:10,782 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:58:10,782 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:58:10,782 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:58:10,782 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:58:10,783 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:58:10,783 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:58:10,783 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:58:10,783 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798197979
+2025-12-25 16:58:10,783 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:58:10,795 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:58:10,796 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:10,796 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:10,796 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:58:10,796 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:58:10,796 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:30,111 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:30,111 - auth.routes - INFO - [CLERK_CALLBACK START] Email: kavish17shah@gmail.com
+2025-12-25 16:58:30,111 - auth.routes - INFO - [CLERK_CALLBACK] Full name: Kavish Shah
+2025-12-25 16:58:30,111 - auth.routes - INFO - [CLERK_CALLBACK] Checking if email already exists: kavish17shah@gmail.com
+2025-12-25 16:58:30,118 - auth.routes - INFO - [CLERK_CALLBACK] User exists (OAuth user), generating token: kavish17shah@gmail.com
+2025-12-25 16:58:30,118 - auth.routes - INFO - [CLERK_CALLBACK SUCCESS] User kavish17shah@gmail.com logged in via Google
+2025-12-25 16:58:30,118 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:30,190 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:30,190 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:58:30,190 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:58:30,190 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:58:30,190 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:58:30,191 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:58:30,191 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:58:30,191 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:58:30,191 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:58:30,191 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:58:30,204 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:58:30,204 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:30,205 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:30,205 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:58:30,205 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:58:30,205 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:30,487 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:30,487 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:58:30,487 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:58:30,487 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:58:30,487 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:58:30,487 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:58:30,488 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:58:30,488 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:58:30,488 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:58:30,488 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:58:30,507 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:58:30,508 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:30,508 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:30,508 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:58:30,508 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:58:30,508 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:34,877 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:34,877 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:58:34,877 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:58:34,877 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:58:34,877 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:58:34,878 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:58:34,878 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:58:34,878 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:58:34,878 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:58:34,878 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:58:34,900 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:58:34,900 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:34,901 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:34,901 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:58:34,901 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:58:34,901 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:34,908 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:34,908 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:58:34,908 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:58:34,908 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:58:34,908 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:58:34,908 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:58:34,909 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:58:34,909 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:58:34,909 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:58:34,909 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:58:34,925 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:58:34,925 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:34,926 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:34,926 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:58:34,926 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:58:34,926 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:37,401 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:37,402 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:58:37,402 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:58:37,402 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:58:37,402 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:58:37,402 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:58:37,402 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:58:37,403 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:58:37,403 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:58:37,403 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:58:37,465 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:58:37,465 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:37,466 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:37,466 - auth.routes - INFO - [UPDATE_PROFILE START] User: kavish17shah@gmail.com
+2025-12-25 16:58:37,466 - auth.routes - INFO - [UPDATE_PROFILE] Profile data: {'learner_type': 'student', 'age_group': 'young_adult', 'learning_goals': ['Career Advancement'], 'preferred_learning_style': 'kinesthetic', 'interests': ['History'], 'education_level': 'middle_school'}
+2025-12-25 16:58:37,608 - auth.routes - INFO - [UPDATE_PROFILE SUCCESS] Profile updated for kavish17shah@gmail.com
+2025-12-25 16:58:37,608 - auth.routes - INFO - [UPDATE_PROFILE] Profile complete: True
+2025-12-25 16:58:37,608 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:38,685 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:38,686 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:58:38,686 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:58:38,686 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:58:38,686 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:58:38,687 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:58:38,687 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:58:38,687 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:58:38,687 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:58:38,687 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:58:38,722 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:58:38,723 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:38,723 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:38,724 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:58:38,724 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:58:38,724 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:38,729 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:38,729 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:58:38,729 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:58:38,729 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:58:38,729 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:58:38,730 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:58:38,730 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:58:38,730 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:58:38,730 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:58:38,730 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:58:38,772 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:58:38,772 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:38,773 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:38,773 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:58:38,773 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:58:38,773 - auth.routes - INFO - ================================================================================
+2025-12-25 16:58:49,206 - video_transcript.services - INFO - [YOUTUBE] Processing video: https://youtu.be/6M5VXKLf4D4?si=6QMqzEkZxZ8uygle
+2025-12-25 16:58:50,075 - video_transcript.services - INFO - [YOUTUBE] Transcript length: 6536 characters
+2025-12-25 16:58:50,076 - video_transcript.services - INFO - [YOUTUBE] Transcript is short (6536 chars), cleaning and returning as simple paragraph
+2025-12-25 16:58:50,076 - video_transcript.services - INFO - [YOUTUBE] Processing completed successfully
+2025-12-25 16:59:12,562 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:12,562 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:59:12,562 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:59:12,562 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:59:12,562 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:59:12,563 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:59:12,563 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:59:12,563 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:59:12,563 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:59:12,563 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:59:12,581 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:59:12,581 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:12,582 - flashcards.routes - INFO - ================================================================================
+2025-12-25 16:59:12,582 - flashcards.routes - INFO - [FLASHCARD HISTORY ROUTE] GET /history endpoint called
+2025-12-25 16:59:12,582 - flashcards.routes - INFO - [FLASHCARD HISTORY ROUTE] User: kavish17shah@gmail.com (user_id: 3)
+2025-12-25 16:59:12,582 - flashcards.routes - INFO - [FLASHCARD HISTORY ROUTE] Querying flashcards for user_id: 3
+2025-12-25 16:59:12,592 - flashcards.routes - INFO - [FLASHCARD HISTORY ROUTE] Found 1 flashcard sets for user
+2025-12-25 16:59:12,592 - flashcards.routes - INFO - [FLASHCARD HISTORY ROUTE] Returning 1 flashcard sets
+2025-12-25 16:59:12,592 - flashcards.routes - INFO - ================================================================================
+2025-12-25 16:59:13,677 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:13,677 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:59:13,677 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:59:13,677 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:59:13,677 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:59:13,677 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:59:13,677 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:59:13,677 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:59:13,677 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:59:13,678 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:59:13,698 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:59:13,698 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:13,698 - flashcards.routes - INFO - ================================================================================
+2025-12-25 16:59:13,698 - flashcards.routes - INFO - [FLASHCARD BY ID ROUTE] GET /history/1 endpoint called
+2025-12-25 16:59:13,698 - flashcards.routes - INFO - [FLASHCARD BY ID ROUTE] User: kavish17shah@gmail.com (user_id: 3)
+2025-12-25 16:59:13,698 - flashcards.routes - INFO - [FLASHCARD BY ID ROUTE] Requested flashcard_id: 1
+2025-12-25 16:59:13,698 - flashcards.routes - INFO - [FLASHCARD BY ID ROUTE] Querying flashcard set with flashcard_id: 1 for user_id: 3
+2025-12-25 16:59:13,717 - flashcards.routes - INFO - [FLASHCARD BY ID ROUTE] Flashcard set found successfully
+2025-12-25 16:59:13,717 - flashcards.routes - INFO - [FLASHCARD BY ID ROUTE] Returning flashcard set with 10 cards
+2025-12-25 16:59:13,717 - flashcards.routes - INFO - ================================================================================
+2025-12-25 16:59:29,814 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:29,814 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:59:29,814 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:59:29,814 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:59:29,814 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:59:29,815 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:59:29,815 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:59:29,815 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:59:29,815 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:59:29,815 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:59:29,835 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:59:29,836 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:29,836 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:59:29,836 - quiz.routes - INFO - [QUIZ HISTORY ROUTE] GET /history endpoint called
+2025-12-25 16:59:29,836 - quiz.routes - INFO - [QUIZ HISTORY ROUTE] User: kavish17shah@gmail.com (user_id: 3)
+2025-12-25 16:59:29,836 - quiz.routes - INFO - [QUIZ HISTORY ROUTE] Querying quizzes for user_id: 3
+2025-12-25 16:59:29,855 - quiz.routes - INFO - [QUIZ HISTORY ROUTE] Found 1 quizzes for user
+2025-12-25 16:59:29,855 - quiz.routes - INFO - [QUIZ HISTORY ROUTE] Returning 1 quizzes
+2025-12-25 16:59:29,855 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:59:30,756 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:30,756 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:59:30,756 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:59:30,756 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:59:30,757 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:59:30,757 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:59:30,757 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:59:30,757 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:59:30,757 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:59:30,757 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:59:30,820 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:59:30,820 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:30,821 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:59:30,821 - quiz.routes - INFO - [QUIZ BY ID ROUTE] GET /history/1 endpoint called
+2025-12-25 16:59:30,821 - quiz.routes - INFO - [QUIZ BY ID ROUTE] User: kavish17shah@gmail.com (user_id: 3)
+2025-12-25 16:59:30,821 - quiz.routes - INFO - [QUIZ BY ID ROUTE] Requested quiz_id: 1
+2025-12-25 16:59:30,821 - quiz.routes - INFO - [QUIZ BY ID ROUTE] Querying quiz with quiz_id: 1 for user_id: 3
+2025-12-25 16:59:30,910 - quiz.routes - INFO - [QUIZ BY ID ROUTE] Quiz found successfully
+2025-12-25 16:59:30,910 - quiz.routes - INFO - [QUIZ BY ID ROUTE] Returning quiz data
+2025-12-25 16:59:30,911 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:59:41,457 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:41,458 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:59:41,458 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:59:41,458 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:59:41,458 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:59:41,458 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:59:41,458 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:59:41,458 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:59:41,458 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:59:41,458 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:59:41,473 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:59:41,473 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:41,473 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:59:41,473 - quiz.routes - INFO - [SAVE QUIZ ROUTE] POST /save endpoint called
+2025-12-25 16:59:41,473 - quiz.routes - INFO - [SAVE QUIZ ROUTE] User: kavish17shah@gmail.com (user_id: 3)
+2025-12-25 16:59:41,473 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Quiz data received:
+2025-12-25 16:59:41,473 - quiz.routes - INFO - [SAVE QUIZ ROUTE]   - Total questions: 5
+2025-12-25 16:59:41,473 - quiz.routes - INFO - [SAVE QUIZ ROUTE]   - Score: 3
+2025-12-25 16:59:41,473 - quiz.routes - INFO - [SAVE QUIZ ROUTE]   - Difficulty: Medium
+2025-12-25 16:59:41,473 - quiz.routes - INFO - [SAVE QUIZ ROUTE]   - Content source: url
+2025-12-25 16:59:41,473 - quiz.routes - INFO - [SAVE QUIZ ROUTE]   - Has analysis: No
+2025-12-25 16:59:41,488 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Generated quiz_id: 2
+2025-12-25 16:59:41,488 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Quiz document prepared
+2025-12-25 16:59:41,488 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Inserting quiz into MongoDB collection 'quizzes'
+2025-12-25 16:59:42,147 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Quiz inserted successfully with _id: 694d20251fc3ed0dc4bbaa2f
+2025-12-25 16:59:42,148 - quiz.routes - INFO - [SAVE QUIZ ROUTE] Quiz saved successfully
+2025-12-25 16:59:42,148 - quiz.routes - INFO - ================================================================================
+2025-12-25 16:59:52,892 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:52,892 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:59:52,892 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:59:52,892 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:59:52,892 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:59:52,893 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:59:52,893 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:59:52,893 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:59:52,893 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:59:52,893 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:59:52,916 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:59:52,916 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:52,917 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:52,917 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:59:52,917 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:59:52,917 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:52,922 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:52,922 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:59:52,922 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:59:52,922 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:59:52,922 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:59:52,922 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:59:52,923 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:59:52,923 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:59:52,923 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:59:52,923 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:59:52,954 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:59:52,955 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:52,955 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:52,955 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 16:59:52,955 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 16:59:52,955 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:54,598 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:54,598 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:59:54,598 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:59:54,598 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:59:54,598 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:59:54,599 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:59:54,599 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:59:54,599 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:59:54,599 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:59:54,599 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:59:54,621 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:59:54,621 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:54,621 - presentation.routes - INFO - ================================================================================
+2025-12-25 16:59:54,621 - presentation.routes - INFO - [PRESENTATION HISTORY] GET /history endpoint called
+2025-12-25 16:59:54,621 - presentation.routes - INFO - [PRESENTATION HISTORY] User: kavish17shah@gmail.com (user_id: 3)
+2025-12-25 16:59:54,621 - presentation.routes - INFO - [PRESENTATION HISTORY] Querying presentations for user_id: 3
+2025-12-25 16:59:54,723 - presentation.routes - INFO - [PRESENTATION HISTORY] Found 1 presentations for user
+2025-12-25 16:59:54,723 - presentation.routes - INFO - [PRESENTATION HISTORY] Returning 1 presentations
+2025-12-25 16:59:54,723 - presentation.routes - INFO - ================================================================================
+2025-12-25 16:59:56,248 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:56,248 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 16:59:56,248 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 16:59:56,248 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 16:59:56,248 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 16:59:56,249 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 16:59:56,249 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 16:59:56,249 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 16:59:56,249 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 16:59:56,249 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 16:59:56,279 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 16:59:56,279 - auth.routes - INFO - ================================================================================
+2025-12-25 16:59:56,280 - presentation.routes - INFO - ================================================================================
+2025-12-25 16:59:56,280 - presentation.routes - INFO - [PRESENTATION BY ID] GET /history/1 endpoint called
+2025-12-25 16:59:56,280 - presentation.routes - INFO - [PRESENTATION BY ID] User: kavish17shah@gmail.com
+2025-12-25 16:59:56,355 - presentation.routes - INFO - [PRESENTATION BY ID] Found presentation 1
+2025-12-25 16:59:56,355 - presentation.routes - INFO - ================================================================================
+2025-12-25 17:00:21,325 - presentation.routes - INFO - ================================================================================
+2025-12-25 17:00:21,326 - presentation.routes - INFO - [PRESENTATION API] Received download request
+2025-12-25 17:00:21,326 - presentation.routes - INFO - [PRESENTATION API] Title: AI in Education: Shaping the Future of Learning
+2025-12-25 17:00:21,326 - presentation.routes - INFO - [PRESENTATION API] Slides: 16
+2025-12-25 17:00:21,326 - presentation.routes - INFO - [PRESENTATION API] Theme: dark
+2025-12-25 17:00:21,326 - presentation.routes - INFO - [PRESENTATION API] Font: Inter
+2025-12-25 17:00:21,444 - presentation.routes - INFO - [PRESENTATION API] Successfully generated PPTX: AI_in_Education:_Shaping_the_Future_of_Learning.pptx
+2025-12-25 17:00:21,444 - presentation.routes - INFO - ================================================================================
+2025-12-25 17:00:28,094 - auth.routes - INFO - ================================================================================
+2025-12-25 17:00:28,094 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 17:00:28,095 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 17:00:28,095 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 17:00:28,095 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 17:00:28,095 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 17:00:28,095 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 17:00:28,095 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 17:00:28,095 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 17:00:28,095 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 17:00:28,119 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 17:00:28,120 - auth.routes - INFO - ================================================================================
+2025-12-25 17:00:28,120 - workflow.routes - INFO - Fetching workflow history for user 3
+2025-12-25 17:00:34,937 - auth.routes - INFO - ================================================================================
+2025-12-25 17:00:34,937 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 17:00:34,937 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 17:00:34,937 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 17:00:34,937 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 17:00:34,938 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 17:00:34,938 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 17:00:34,938 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 17:00:34,938 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 17:00:34,938 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 17:00:34,979 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 17:00:34,980 - auth.routes - INFO - ================================================================================
+2025-12-25 17:00:34,980 - workflow.routes - INFO - User 3 generating workflow
+2025-12-25 17:00:34,980 - core.url_extractor - INFO - ================================================================================
+2025-12-25 17:00:34,980 - core.url_extractor - INFO - [URL EXTRACT] Starting URL extraction
+2025-12-25 17:00:34,980 - core.url_extractor - INFO - [URL EXTRACT] Target URL: https://www.ibm.com/think/topics/deep-learning
+2025-12-25 17:00:34,980 - core.url_extractor - INFO - [URL EXTRACT] Initializing Tavily API call
+2025-12-25 17:00:34,980 - core.url_extractor - INFO - [URL EXTRACT] Tavily API key configured: Yes
+2025-12-25 17:00:34,980 - core.url_extractor - INFO - [URL EXTRACT] Calling Tavily extract API
+2025-12-25 17:00:36,155 - core.url_extractor - INFO - [URL EXTRACT] Tavily API response received
+2025-12-25 17:00:36,155 - core.url_extractor - INFO - [URL EXTRACT] Response length: 36584 characters
+2025-12-25 17:00:36,155 - core.url_extractor - INFO - [URL EXTRACT] Response type: <class 'dict'>
+2025-12-25 17:00:36,156 - core.url_extractor - WARNING - [URL EXTRACT] No results found in response, using fallback
+2025-12-25 17:00:36,156 - core.url_extractor - INFO - [URL EXTRACT] URL extraction completed successfully
+2025-12-25 17:00:36,157 - core.url_extractor - INFO - ================================================================================
+2025-12-25 17:00:36,157 - workflow.routes - INFO - Extracted content from URL: https://www.ibm.com/think/topics/deep-learning
+2025-12-25 17:00:36,157 - workflow.services - INFO - Generating workflow from content (length: 36584)
+2025-12-25 17:00:36,157 - core.gemini_client - INFO - ================================================================================
+2025-12-25 17:00:36,157 - core.gemini_client - INFO - [GEMINI] Starting Gemini AI generation
+2025-12-25 17:00:36,157 - core.gemini_client - INFO - [GEMINI] Using API Key #1 of 2
+2025-12-25 17:00:36,157 - core.gemini_client - INFO - [GEMINI] Prompt length: 38035 characters
+2025-12-25 17:00:36,157 - core.gemini_client - INFO - [GEMINI] Model: gemini-2.5-flash
+2025-12-25 17:00:36,176 - core.gemini_client - INFO - [GEMINI] Attempting API call with client.models.generate_content
+2025-12-25 17:00:36,176 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-12-25 17:00:43,925 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-12-25 17:00:43,927 - core.gemini_client - INFO - [GEMINI] API call successful with Key #1
+2025-12-25 17:00:43,927 - core.gemini_client - INFO - [GEMINI] Response received: 283 characters
+2025-12-25 17:00:43,927 - core.gemini_client - INFO - [GEMINI] Response preview: flowchart TD
+    A[Define Deep Learning] --> B[Design Neural Network]
+    B --> C[Prepare Training Data]
+    C --> D{{Task Requires Specialized?}}
+    D -->|Yes| E[Select Specialized Architecture]
+   ...
+2025-12-25 17:00:43,927 - core.gemini_client - INFO - ================================================================================
+2025-12-25 17:00:43,927 - workflow.services - INFO - Raw Gemini output received: flowchart TD
+    A[Define Deep Learning] --> B[Design Neural Network]
+    B --> C[Prepare Training Data]
+    C --> D{{Task Requires Specialized?}}
+    D -->|Yes| E[Select Specialized Architecture]
+   ...
+2025-12-25 17:00:43,927 - workflow.services - INFO - Successfully generated workflow
+2025-12-25 17:00:48,623 - auth.routes - INFO - ================================================================================
+2025-12-25 17:00:48,623 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 17:00:48,623 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 17:00:48,623 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 17:00:48,623 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 17:00:48,623 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 17:00:48,623 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 17:00:48,623 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 17:00:48,623 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 17:00:48,623 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 17:00:48,661 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 17:00:48,661 - auth.routes - INFO - ================================================================================
+2025-12-25 17:00:48,661 - workflow.routes - INFO - User 3 saving workflow
+2025-12-25 17:00:49,052 - workflow.routes - INFO - Workflow 1 saved for user 3
+2025-12-25 17:01:09,300 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:09,301 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 17:01:09,301 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 17:01:09,301 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 17:01:09,301 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 17:01:09,301 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 17:01:09,302 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 17:01:09,302 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 17:01:09,302 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 17:01:09,302 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 17:01:09,334 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 17:01:09,335 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:09,335 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:09,336 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 17:01:09,336 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 17:01:09,336 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:09,340 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:09,340 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 17:01:09,340 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 17:01:09,340 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 17:01:09,340 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 17:01:09,341 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 17:01:09,341 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 17:01:09,341 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 17:01:09,341 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 17:01:09,341 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 17:01:09,579 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 17:01:09,579 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:09,580 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:09,580 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 17:01:09,580 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 17:01:09,580 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:22,817 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:22,817 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 17:01:22,817 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 17:01:22,817 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 17:01:22,817 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 17:01:22,817 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 17:01:22,818 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 17:01:22,818 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 17:01:22,818 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 17:01:22,818 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 17:01:22,901 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 17:01:22,901 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:22,902 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:22,902 - auth.routes - INFO - [UPDATE_PROFILE START] User: kavish17shah@gmail.com
+2025-12-25 17:01:22,902 - auth.routes - INFO - [UPDATE_PROFILE] Profile data: {'learner_type': 'student', 'age_group': 'young_adult', 'learning_goals': ['Career Advancement'], 'preferred_learning_style': 'kinesthetic', 'interests': ['History'], 'education_level': 'middle_school'}
+2025-12-25 17:01:23,131 - auth.routes - INFO - [UPDATE_PROFILE SUCCESS] Profile updated for kavish17shah@gmail.com
+2025-12-25 17:01:23,131 - auth.routes - INFO - [UPDATE_PROFILE] Profile complete: True
+2025-12-25 17:01:23,131 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:24,200 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:24,201 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 17:01:24,201 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 17:01:24,201 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 17:01:24,201 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 17:01:24,201 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 17:01:24,201 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 17:01:24,201 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 17:01:24,201 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 17:01:24,201 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 17:01:24,230 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 17:01:24,231 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:24,231 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:24,231 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 17:01:24,231 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 17:01:24,231 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:24,236 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:24,236 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 17:01:24,236 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 17:01:24,236 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 17:01:24,236 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 17:01:24,236 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 17:01:24,236 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 17:01:24,236 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 17:01:24,237 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 17:01:24,237 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 17:01:24,340 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 17:01:24,340 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:24,341 - auth.routes - INFO - ================================================================================
+2025-12-25 17:01:24,341 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 17:01:24,341 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 17:01:24,341 - auth.routes - INFO - ================================================================================
+2025-12-25 17:05:33,739 - Main - INFO - 🚀 Saarthi Backend Server Started
+2025-12-25 17:12:29,799 - auth.routes - INFO - ================================================================================
+2025-12-25 17:12:29,800 - auth.routes - INFO - [GET_CURRENT_USER START] Token validation requested
+2025-12-25 17:12:29,800 - auth.routes - INFO - [GET_CURRENT_USER] Token length: 147
+2025-12-25 17:12:29,800 - auth.routes - INFO - [GET_CURRENT_USER] Token preview: eyJhbGciOiJIUzI1NiIs...
+2025-12-25 17:12:29,800 - auth.routes - INFO - [GET_CURRENT_USER] Decoding JWT token
+2025-12-25 17:12:29,810 - auth.routes - INFO - [GET_CURRENT_USER] Token decoded successfully
+2025-12-25 17:12:29,810 - auth.routes - INFO - [GET_CURRENT_USER] Payload keys: ['sub', 'exp']
+2025-12-25 17:12:29,810 - auth.routes - INFO - [GET_CURRENT_USER] Email from token: kavish17shah@gmail.com
+2025-12-25 17:12:29,810 - auth.routes - INFO - [GET_CURRENT_USER] Token expiry: 1798198110
+2025-12-25 17:12:29,810 - auth.routes - INFO - [GET_CURRENT_USER] Querying MongoDB for user: kavish17shah@gmail.com
+2025-12-25 17:12:29,835 - auth.routes - INFO - [GET_CURRENT_USER SUCCESS] User found: kavish17shah@gmail.com, user_id: 3
+2025-12-25 17:12:29,836 - auth.routes - INFO - ================================================================================
+2025-12-25 17:12:29,836 - auth.routes - INFO - ================================================================================
+2025-12-25 17:12:29,836 - auth.routes - INFO - [GET /me] Request received for user: kavish17shah@gmail.com
+2025-12-25 17:12:29,837 - auth.routes - INFO - [GET /me] Returning user data: user_id=3, full_name=Kavish Shah, profile_complete=True
+2025-12-25 17:12:29,837 - auth.routes - INFO - ================================================================================

@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import axios from "axios";
 import toast from "react-hot-toast";
@@ -308,7 +308,7 @@ const parseMermaidToFlow = (mermaidCode: string): { nodes: Node[]; edges: Edge[]
   return { nodes: flowNodes, edges: flowEdges };
 };
 
-export default function ExplainerPage() {
+function ExplainerPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   
@@ -1038,5 +1038,20 @@ export default function ExplainerPage() {
         />
       </div>
     </div>
+  );
+}
+
+export default function ExplainerPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex items-center justify-center h-screen">
+        <div className="text-center">
+          <Loader2 className="animate-spin mx-auto mb-4" size={48} />
+          <p className="font-bold text-lg">Loading...</p>
+        </div>
+      </div>
+    }>
+      <ExplainerPageContent />
+    </Suspense>
   );
 }
